@@ -45,7 +45,11 @@ def fetch(url):
         return html
     raw = subprocess.run(["curl", "-s", "--max-time", "30", "-A", UA, url],
                          capture_output=True, check=True).stdout
-    html = raw.decode("euc-jp", errors="replace")
+    # netkeiba は race.* が UTF-8、db.* が EUC-JP など混在するため、
+    # 文字化け(置換文字)が少ない方の文字コードを自動採用する。
+    u = raw.decode("utf-8", errors="replace")
+    e = raw.decode("euc-jp", errors="replace")
+    html = u if u.count("�") <= e.count("�") else e
     with open(cf, "w", encoding="utf-8") as f:
         f.write(html)
     _cache[url] = html

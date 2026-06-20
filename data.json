@@ -1,25 +1,25 @@
 {
  "race": {
   "race_id": "202605030611",
-  "race_name": "綺�筝����薤�鐚�(G3) ��咲Μ茵� | 2026綛�6���21��� ��延根11R �����若�号�����(JRA) - netkeiba",
-  "date": "",
-  "venue": "",
-  "track": "",
-  "distance": 0,
-  "cond": "15:45��肴軌 / ���1800m (綏� D) / 紊����:��� / 薤����:腮�"
+  "race_name": "府中牝馬Ｓ(G3)",
+  "date": "2026/06/21",
+  "venue": "東京",
+  "track": "芝",
+  "distance": 1800,
+  "cond": "15:45発走 / 芝1800m (左 D) / 天候:雨 / 馬場:稍"
  },
  "horses": [
   {
    "waku": 1,
    "umaban": 1,
    "horse_id": "2022100019",
-   "name": "���������",
-   "sex_age": "���4",
+   "name": "マカナ",
+   "sex_age": "牝4",
    "weight_carry": "50.0",
    "jockey_id": "01085",
-   "jockey": "��上押",
+   "jockey": "松岡",
    "trainer_id": "01109",
-   "trainer": "篌���ゅぇ",
+   "trainer": "伊藤大",
    "sire_id": "2009102739",
    "sire": "ゴールドシップ",
    "sire_stats": {
@@ -115,40 +115,40 @@
      "show_rate": 66.7
     },
     "same_track": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
-     "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "starts": 12,
+     "win1": 3,
+     "win2": 3,
+     "win3": 2,
+     "win_rate": 25.0,
+     "quinella_rate": 50.0,
+     "show_rate": 66.7
     },
     "venue": {
-     "starts": 0,
-     "win1": 0,
+     "starts": 1,
+     "win1": 1,
      "win2": 0,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 100.0,
+     "quinella_rate": 100.0,
+     "show_rate": 100.0
     },
     "exact_course": {
-     "starts": 0,
-     "win1": 0,
+     "starts": 1,
+     "win1": 1,
      "win2": 0,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 100.0,
+     "quinella_rate": 100.0,
+     "show_rate": 100.0
     },
     "dist_band": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
-     "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "starts": 11,
+     "win1": 3,
+     "win2": 3,
+     "win3": 2,
+     "win_rate": 27.3,
+     "quinella_rate": 54.5,
+     "show_rate": 72.7
     }
    },
    "recent": [
@@ -199,16 +199,16 @@
      "low_data": false
     },
     "distance": {
-     "grade": "B",
-     "low_data": true
+     "grade": "S",
+     "low_data": false
     },
     "stage": {
-     "grade": "B",
+     "grade": "A",
      "low_data": true
     },
     "going": {
-     "grade": "C",
-     "low_data": true
+     "grade": "S",
+     "low_data": false
     }
    }
   },
@@ -216,13 +216,13 @@
    "waku": 1,
    "umaban": 2,
    "horse_id": "2022106232",
-   "name": "�����ゃ�潟�������ゃ����ゃ��",
-   "sex_age": "���4",
+   "name": "ウイントワイライト",
+   "sex_age": "牝4",
    "weight_carry": "53.0",
    "jockey_id": "00660",
-   "jockey": "罔�絮怨��",
+   "jockey": "横山典",
    "trainer_id": "01196",
-   "trainer": "茱水��膺�",
+   "trainer": "西園翔",
    "sire_id": "2014106201",
    "sire": "レイデオロ",
    "sire_stats": {
@@ -318,22 +318,22 @@
      "show_rate": 50.0
     },
     "same_track": {
-     "starts": 0,
-     "win1": 0,
+     "starts": 7,
+     "win1": 3,
      "win2": 0,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 42.9,
+     "quinella_rate": 42.9,
+     "show_rate": 42.9
     },
     "venue": {
-     "starts": 0,
-     "win1": 0,
+     "starts": 4,
+     "win1": 3,
      "win2": 0,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 75.0,
+     "quinella_rate": 75.0,
+     "show_rate": 75.0
     },
     "exact_course": {
      "starts": 0,
@@ -406,12 +406,12 @@
      "low_data": true
     },
     "stage": {
-     "grade": "B",
-     "low_data": true
+     "grade": "S",
+     "low_data": false
     },
     "going": {
-     "grade": "B",
-     "low_data": true
+     "grade": "A",
+     "low_data": false
     }
    }
   },
@@ -419,13 +419,13 @@
    "waku": 2,
    "umaban": 3,
    "horse_id": "2022104994",
-   "name": "�����������潟�������с�����",
-   "sex_age": "���4",
+   "name": "ブラウンラチェット",
+   "sex_age": "牝4",
    "weight_carry": "54.0",
    "jockey_id": "01127",
-   "jockey": "筝後臼",
+   "jockey": "丸山",
    "trainer_id": "01038",
-   "trainer": "���紂�箙�",
+   "trainer": "手塚久",
    "sire_id": "2010105827",
    "sire": "キズナ",
    "sire_stats": {
@@ -521,22 +521,22 @@
      "show_rate": 25.0
     },
     "same_track": {
-     "starts": 0,
-     "win1": 0,
+     "starts": 8,
+     "win1": 2,
      "win2": 0,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 25.0,
+     "quinella_rate": 25.0,
+     "show_rate": 25.0
     },
     "venue": {
-     "starts": 0,
-     "win1": 0,
+     "starts": 2,
+     "win1": 1,
      "win2": 0,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 50.0,
+     "quinella_rate": 50.0,
+     "show_rate": 50.0
     },
     "exact_course": {
      "starts": 0,
@@ -548,13 +548,13 @@
      "show_rate": null
     },
     "dist_band": {
-     "starts": 0,
-     "win1": 0,
+     "starts": 7,
+     "win1": 2,
      "win2": 0,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 28.6,
+     "quinella_rate": 28.6,
+     "show_rate": 28.6
     }
    },
    "recent": [
@@ -606,15 +606,15 @@
     },
     "distance": {
      "grade": "B",
-     "low_data": true
+     "low_data": false
     },
     "stage": {
-     "grade": "B",
+     "grade": "A",
      "low_data": true
     },
     "going": {
-     "grade": "A",
-     "low_data": true
+     "grade": "B",
+     "low_data": false
     }
    }
   },
@@ -622,13 +622,13 @@
    "waku": 2,
    "umaban": 4,
    "horse_id": "2021105801",
-   "name": "�����≪����若��",
-   "sex_age": "���5",
+   "name": "ミアネーロ",
+   "sex_age": "牝5",
    "weight_carry": "55.0",
    "jockey_id": "01096",
-   "jockey": "紊ч��",
+   "jockey": "大野",
    "trainer_id": "01163",
-   "trainer": "���",
+   "trainer": "林",
    "sire_id": "2012104511",
    "sire": "ドゥラメンテ",
    "sire_stats": {
@@ -724,40 +724,40 @@
      "show_rate": 25.0
     },
     "same_track": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
+     "starts": 11,
+     "win1": 2,
+     "win2": 1,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 18.2,
+     "quinella_rate": 27.3,
+     "show_rate": 27.3
     },
     "venue": {
-     "starts": 0,
+     "starts": 3,
      "win1": 0,
      "win2": 0,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 0.0,
+     "quinella_rate": 0.0,
+     "show_rate": 0.0
     },
     "exact_course": {
-     "starts": 0,
+     "starts": 1,
      "win1": 0,
      "win2": 0,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 0.0,
+     "quinella_rate": 0.0,
+     "show_rate": 0.0
     },
     "dist_band": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
+     "starts": 9,
+     "win1": 2,
+     "win2": 1,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 22.2,
+     "quinella_rate": 33.3,
+     "show_rate": 33.3
     }
    },
    "recent": [
@@ -809,15 +809,15 @@
     },
     "distance": {
      "grade": "B",
-     "low_data": true
+     "low_data": false
     },
     "stage": {
-     "grade": "B",
+     "grade": "C",
      "low_data": true
     },
     "going": {
-     "grade": "B",
-     "low_data": true
+     "grade": "A",
+     "low_data": false
     }
    }
   },
@@ -825,13 +825,13 @@
    "waku": 3,
    "umaban": 5,
    "horse_id": "2022101192",
-   "name": "�����鴻����ャ����潟��",
-   "sex_age": "���4",
+   "name": "エストゥペンダ",
+   "sex_age": "牝4",
    "weight_carry": "54.0",
    "jockey_id": "01160",
-   "jockey": "��脂��罐�",
+   "jockey": "荻野極",
    "trainer_id": "01118",
-   "trainer": "蕭���括��",
+   "trainer": "高柳瑞",
    "sire_id": "2016104505",
    "sire": "サートゥルナーリア",
    "sire_stats": {
@@ -927,40 +927,40 @@
      "show_rate": 66.7
     },
     "same_track": {
-     "starts": 0,
-     "win1": 0,
+     "starts": 12,
+     "win1": 4,
      "win2": 0,
-     "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win3": 4,
+     "win_rate": 33.3,
+     "quinella_rate": 33.3,
+     "show_rate": 66.7
     },
     "venue": {
-     "starts": 0,
-     "win1": 0,
+     "starts": 6,
+     "win1": 2,
      "win2": 0,
-     "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win3": 2,
+     "win_rate": 33.3,
+     "quinella_rate": 33.3,
+     "show_rate": 66.7
     },
     "exact_course": {
-     "starts": 0,
+     "starts": 1,
      "win1": 0,
      "win2": 0,
-     "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win3": 1,
+     "win_rate": 0.0,
+     "quinella_rate": 0.0,
+     "show_rate": 100.0
     },
     "dist_band": {
-     "starts": 0,
-     "win1": 0,
+     "starts": 12,
+     "win1": 4,
      "win2": 0,
-     "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win3": 4,
+     "win_rate": 33.3,
+     "quinella_rate": 33.3,
+     "show_rate": 66.7
     }
    },
    "recent": [
@@ -1011,16 +1011,16 @@
      "low_data": false
     },
     "distance": {
-     "grade": "B",
-     "low_data": true
+     "grade": "S",
+     "low_data": false
     },
     "stage": {
-     "grade": "B",
+     "grade": "A",
      "low_data": true
     },
     "going": {
-     "grade": "B",
-     "low_data": true
+     "grade": "S",
+     "low_data": false
     }
    }
   },
@@ -1028,13 +1028,13 @@
    "waku": 3,
    "umaban": 6,
    "horse_id": "2022104764",
-   "name": "��眼�＜����������若����若��",
-   "sex_age": "���4",
+   "name": "ヴァルキリーバース",
+   "sex_age": "牝4",
    "weight_carry": "55.5",
    "jockey_id": "05339",
-   "jockey": "�����＜�若��",
+   "jockey": "ルメール",
    "trainer_id": "01162",
-   "trainer": "��遺賢���",
+   "trainer": "田中博",
    "sire_id": "2010104155",
    "sire": "エピファネイア",
    "sire_stats": {
@@ -1130,22 +1130,22 @@
      "show_rate": 80.0
     },
     "same_track": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
+     "starts": 5,
+     "win1": 3,
+     "win2": 1,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 60.0,
+     "quinella_rate": 80.0,
+     "show_rate": 80.0
     },
     "venue": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
+     "starts": 3,
+     "win1": 1,
+     "win2": 1,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 33.3,
+     "quinella_rate": 66.7,
+     "show_rate": 66.7
     },
     "exact_course": {
      "starts": 0,
@@ -1157,13 +1157,13 @@
      "show_rate": null
     },
     "dist_band": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
+     "starts": 5,
+     "win1": 3,
+     "win2": 1,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 60.0,
+     "quinella_rate": 80.0,
+     "show_rate": 80.0
     }
    },
    "recent": [
@@ -1214,16 +1214,16 @@
      "low_data": false
     },
     "distance": {
-     "grade": "B",
-     "low_data": true
+     "grade": "S",
+     "low_data": false
     },
     "stage": {
-     "grade": "B",
-     "low_data": true
+     "grade": "S",
+     "low_data": false
     },
     "going": {
-     "grade": "C",
-     "low_data": true
+     "grade": "S",
+     "low_data": false
     }
    }
   },
@@ -1231,13 +1231,13 @@
    "waku": 4,
    "umaban": 7,
    "horse_id": "2021103975",
-   "name": "��祉����������ゃ�若�鴻��",
-   "sex_age": "���5",
+   "name": "セキトバイースト",
+   "sex_age": "牝5",
    "weight_carry": "56.0",
    "jockey_id": "01115",
-   "jockey": "羌�筝�",
+   "jockey": "浜中",
    "trainer_id": "01184",
-   "trainer": "���篏�",
+   "trainer": "四位",
    "sire_id": "000a0136f6",
    "sire": "デクラレーションオブウォー",
    "sire_stats": null,
@@ -1308,40 +1308,40 @@
      "show_rate": 50.0
     },
     "same_track": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
-     "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "starts": 18,
+     "win1": 4,
+     "win2": 4,
+     "win3": 1,
+     "win_rate": 22.2,
+     "quinella_rate": 44.4,
+     "show_rate": 50.0
     },
     "venue": {
-     "starts": 0,
-     "win1": 0,
+     "starts": 3,
+     "win1": 1,
      "win2": 0,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 33.3,
+     "quinella_rate": 33.3,
+     "show_rate": 33.3
     },
     "exact_course": {
-     "starts": 0,
-     "win1": 0,
+     "starts": 2,
+     "win1": 1,
      "win2": 0,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 50.0,
+     "quinella_rate": 50.0,
+     "show_rate": 50.0
     },
     "dist_band": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
-     "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "starts": 15,
+     "win1": 4,
+     "win2": 2,
+     "win3": 1,
+     "win_rate": 26.7,
+     "quinella_rate": 40.0,
+     "show_rate": 46.7
     }
    },
    "recent": [
@@ -1392,16 +1392,16 @@
      "low_data": false
     },
     "distance": {
-     "grade": "B",
-     "low_data": true
+     "grade": "A",
+     "low_data": false
     },
     "stage": {
-     "grade": "B",
+     "grade": "A",
      "low_data": true
     },
     "going": {
-     "grade": "B",
-     "low_data": true
+     "grade": "A",
+     "low_data": false
     }
    }
   },
@@ -1409,13 +1409,13 @@
    "waku": 4,
    "umaban": 8,
    "horse_id": "2021100244",
-   "name": "�����激�������ｃ�≪��",
-   "sex_age": "���5",
+   "name": "ニシノティアモ",
+   "sex_age": "牝5",
    "weight_carry": "56.0",
    "jockey_id": "01092",
-   "jockey": "羇ユ��",
+   "jockey": "津村",
    "trainer_id": "01192",
-   "trainer": "筝����篏�",
+   "trainer": "上原佑",
    "sire_id": "2012104511",
    "sire": "ドゥラメンテ",
    "sire_stats": {
@@ -1511,40 +1511,40 @@
      "show_rate": 57.1
     },
     "same_track": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
+     "starts": 14,
+     "win1": 5,
+     "win2": 3,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 35.7,
+     "quinella_rate": 57.1,
+     "show_rate": 57.1
     },
     "venue": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
+     "starts": 8,
+     "win1": 3,
+     "win2": 1,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 37.5,
+     "quinella_rate": 50.0,
+     "show_rate": 50.0
     },
     "exact_course": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
+     "starts": 5,
+     "win1": 2,
+     "win2": 1,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 40.0,
+     "quinella_rate": 60.0,
+     "show_rate": 60.0
     },
     "dist_band": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
+     "starts": 14,
+     "win1": 5,
+     "win2": 3,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 35.7,
+     "quinella_rate": 57.1,
+     "show_rate": 57.1
     }
    },
    "recent": [
@@ -1595,16 +1595,16 @@
      "low_data": false
     },
     "distance": {
-     "grade": "B",
-     "low_data": true
+     "grade": "S",
+     "low_data": false
     },
     "stage": {
-     "grade": "B",
-     "low_data": true
+     "grade": "S",
+     "low_data": false
     },
     "going": {
-     "grade": "B",
-     "low_data": true
+     "grade": "S",
+     "low_data": false
     }
    }
   },
@@ -1612,13 +1612,13 @@
    "waku": 5,
    "umaban": 9,
    "horse_id": "2022104812",
-   "name": "�����������鴻�����",
-   "sex_age": "���4",
+   "name": "テリオスララ",
+   "sex_age": "牝4",
    "weight_carry": "54.0",
    "jockey_id": "05675",
-   "jockey": "��眼�潟�泣�����",
+   "jockey": "ゴンサルベ",
    "trainer_id": "01112",
-   "trainer": "��医涯",
+   "trainer": "田島",
    "sire_id": "000a01aa3d",
    "sire": "シスキン",
    "sire_stats": null,
@@ -1689,40 +1689,40 @@
      "show_rate": 55.6
     },
     "same_track": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
-     "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "starts": 9,
+     "win1": 3,
+     "win2": 1,
+     "win3": 1,
+     "win_rate": 33.3,
+     "quinella_rate": 44.4,
+     "show_rate": 55.6
     },
     "venue": {
-     "starts": 0,
-     "win1": 0,
+     "starts": 2,
+     "win1": 1,
      "win2": 0,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 50.0,
+     "quinella_rate": 50.0,
+     "show_rate": 50.0
     },
     "exact_course": {
-     "starts": 0,
-     "win1": 0,
+     "starts": 2,
+     "win1": 1,
      "win2": 0,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 50.0,
+     "quinella_rate": 50.0,
+     "show_rate": 50.0
     },
     "dist_band": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
-     "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "starts": 9,
+     "win1": 3,
+     "win2": 1,
+     "win3": 1,
+     "win_rate": 33.3,
+     "quinella_rate": 44.4,
+     "show_rate": 55.6
     }
    },
    "recent": [
@@ -1773,16 +1773,16 @@
      "low_data": false
     },
     "distance": {
-     "grade": "B",
-     "low_data": true
+     "grade": "S",
+     "low_data": false
     },
     "stage": {
-     "grade": "B",
+     "grade": "A",
      "low_data": true
     },
     "going": {
-     "grade": "B",
-     "low_data": true
+     "grade": "S",
+     "low_data": false
     }
    }
   },
@@ -1790,13 +1790,13 @@
    "waku": 5,
    "umaban": 10,
    "horse_id": "2020110060",
-   "name": "�����若��������",
-   "sex_age": "���6",
+   "name": "ホールネス",
+   "sex_age": "牝6",
    "weight_carry": "55.0",
    "jockey_id": "01122",
-   "jockey": "筝�羌�",
+   "jockey": "三浦",
    "trainer_id": "01055",
-   "trainer": "��ゅ��",
+   "trainer": "藤原",
    "sire_id": "000a012919",
    "sire": "Lope de Vega",
    "sire_stats": null,
@@ -1867,13 +1867,13 @@
      "show_rate": 70.0
     },
     "same_track": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
-     "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "starts": 10,
+     "win1": 4,
+     "win2": 1,
+     "win3": 2,
+     "win_rate": 40.0,
+     "quinella_rate": 50.0,
+     "show_rate": 70.0
     },
     "venue": {
      "starts": 0,
@@ -1894,13 +1894,13 @@
      "show_rate": null
     },
     "dist_band": {
-     "starts": 0,
-     "win1": 0,
+     "starts": 3,
+     "win1": 1,
      "win2": 0,
-     "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win3": 1,
+     "win_rate": 33.3,
+     "quinella_rate": 33.3,
+     "show_rate": 66.7
     }
    },
    "recent": [
@@ -1951,16 +1951,16 @@
      "low_data": false
     },
     "distance": {
-     "grade": "B",
-     "low_data": true
+     "grade": "S",
+     "low_data": false
     },
     "stage": {
      "grade": "B",
      "low_data": true
     },
     "going": {
-     "grade": "B",
-     "low_data": true
+     "grade": "S",
+     "low_data": false
     }
    }
   },
@@ -1968,13 +1968,13 @@
    "waku": 6,
    "umaban": 11,
    "horse_id": "2022104885",
-   "name": "���������",
-   "sex_age": "���4",
+   "name": "テレサ",
+   "sex_age": "牝4",
    "weight_carry": "55.0",
    "jockey_id": "05386",
-   "jockey": "��後�����",
+   "jockey": "戸崎圭",
    "trainer_id": "01157",
-   "trainer": "���絮掩��",
+   "trainer": "杉山晴",
    "sire_id": "2016104422",
    "sire": "アドマイヤマーズ",
    "sire_stats": {
@@ -2070,40 +2070,40 @@
      "show_rate": 44.4
     },
     "same_track": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
+     "starts": 9,
+     "win1": 3,
+     "win2": 1,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 33.3,
+     "quinella_rate": 44.4,
+     "show_rate": 44.4
     },
     "venue": {
-     "starts": 0,
+     "starts": 1,
      "win1": 0,
      "win2": 0,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 0.0,
+     "quinella_rate": 0.0,
+     "show_rate": 0.0
     },
     "exact_course": {
-     "starts": 0,
+     "starts": 1,
      "win1": 0,
      "win2": 0,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 0.0,
+     "quinella_rate": 0.0,
+     "show_rate": 0.0
     },
     "dist_band": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
+     "starts": 8,
+     "win1": 3,
+     "win2": 1,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 37.5,
+     "quinella_rate": 50.0,
+     "show_rate": 50.0
     }
    },
    "recent": [
@@ -2154,16 +2154,16 @@
      "low_data": false
     },
     "distance": {
-     "grade": "B",
-     "low_data": true
+     "grade": "S",
+     "low_data": false
     },
     "stage": {
-     "grade": "B",
+     "grade": "C",
      "low_data": true
     },
     "going": {
-     "grade": "A",
-     "low_data": true
+     "grade": "S",
+     "low_data": false
     }
    }
   },
@@ -2171,13 +2171,13 @@
    "waku": 6,
    "umaban": 12,
    "horse_id": "2021106823",
-   "name": "��潟����������純��",
-   "sex_age": "���5",
+   "name": "コガネノソラ",
+   "sex_age": "牝5",
    "weight_carry": "56.5",
    "jockey_id": "01161",
-   "jockey": "���羃�",
+   "jockey": "菊沢",
    "trainer_id": "01115",
-   "trainer": "���羃�",
+   "trainer": "菊沢",
    "sire_id": "2009102739",
    "sire": "ゴールドシップ",
    "sire_stats": {
@@ -2273,40 +2273,40 @@
      "show_rate": 61.5
     },
     "same_track": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
-     "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "starts": 13,
+     "win1": 5,
+     "win2": 1,
+     "win3": 2,
+     "win_rate": 38.5,
+     "quinella_rate": 46.2,
+     "show_rate": 61.5
     },
     "venue": {
-     "starts": 0,
-     "win1": 0,
+     "starts": 3,
+     "win1": 2,
      "win2": 0,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 66.7,
+     "quinella_rate": 66.7,
+     "show_rate": 66.7
     },
     "exact_course": {
-     "starts": 0,
-     "win1": 0,
+     "starts": 2,
+     "win1": 2,
      "win2": 0,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 100.0,
+     "quinella_rate": 100.0,
+     "show_rate": 100.0
     },
     "dist_band": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
-     "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "starts": 12,
+     "win1": 5,
+     "win2": 1,
+     "win3": 2,
+     "win_rate": 41.7,
+     "quinella_rate": 50.0,
+     "show_rate": 66.7
     }
    },
    "recent": [
@@ -2357,16 +2357,16 @@
      "low_data": false
     },
     "distance": {
-     "grade": "B",
-     "low_data": true
+     "grade": "S",
+     "low_data": false
     },
     "stage": {
-     "grade": "B",
+     "grade": "A",
      "low_data": true
     },
     "going": {
-     "grade": "C",
-     "low_data": true
+     "grade": "S",
+     "low_data": false
     }
    }
   },
@@ -2374,13 +2374,13 @@
    "waku": 7,
    "umaban": 13,
    "horse_id": "2022105192",
-   "name": "��������������ゃ�吾��",
-   "sex_age": "���4",
+   "name": "ビップデイジー",
+   "sex_age": "牝4",
    "weight_carry": "54.0",
    "jockey_id": "01171",
-   "jockey": "茱炊��羞�",
+   "jockey": "西村淳",
    "trainer_id": "01149",
-   "trainer": "��鞘��",
+   "trainer": "松下",
    "sire_id": "2013106101",
    "sire": "サトノダイヤモンド",
    "sire_stats": {
@@ -2476,22 +2476,22 @@
      "show_rate": 36.4
     },
     "same_track": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
-     "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "starts": 11,
+     "win1": 2,
+     "win2": 1,
+     "win3": 1,
+     "win_rate": 18.2,
+     "quinella_rate": 27.3,
+     "show_rate": 36.4
     },
     "venue": {
-     "starts": 0,
+     "starts": 1,
      "win1": 0,
      "win2": 0,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 0.0,
+     "quinella_rate": 0.0,
+     "show_rate": 0.0
     },
     "exact_course": {
      "starts": 0,
@@ -2503,13 +2503,13 @@
      "show_rate": null
     },
     "dist_band": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
-     "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "starts": 10,
+     "win1": 2,
+     "win2": 1,
+     "win3": 1,
+     "win_rate": 20.0,
+     "quinella_rate": 30.0,
+     "show_rate": 40.0
     }
    },
    "recent": [
@@ -2560,16 +2560,16 @@
      "low_data": false
     },
     "distance": {
-     "grade": "B",
-     "low_data": true
+     "grade": "A",
+     "low_data": false
     },
     "stage": {
-     "grade": "B",
+     "grade": "C",
      "low_data": true
     },
     "going": {
-     "grade": "C",
-     "low_data": true
+     "grade": "A",
+     "low_data": false
     }
    }
   },
@@ -2577,13 +2577,13 @@
    "waku": 7,
    "umaban": 14,
    "horse_id": "2022103546",
-   "name": "�����������ｃ����若��",
-   "sex_age": "���4",
+   "name": "パラディレーヌ",
+   "sex_age": "牝4",
    "weight_carry": "56.0",
    "jockey_id": "01184",
-   "jockey": "���",
+   "jockey": "原",
    "trainer_id": "01120",
-   "trainer": "������",
+   "trainer": "千田",
    "sire_id": "2010105827",
    "sire": "キズナ",
    "sire_stats": {
@@ -2679,22 +2679,22 @@
      "show_rate": 63.6
     },
     "same_track": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
-     "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "starts": 11,
+     "win1": 2,
+     "win2": 2,
+     "win3": 3,
+     "win_rate": 18.2,
+     "quinella_rate": 36.4,
+     "show_rate": 63.6
     },
     "venue": {
-     "starts": 0,
+     "starts": 2,
      "win1": 0,
      "win2": 0,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 0.0,
+     "quinella_rate": 0.0,
+     "show_rate": 0.0
     },
     "exact_course": {
      "starts": 0,
@@ -2706,13 +2706,13 @@
      "show_rate": null
     },
     "dist_band": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
-     "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "starts": 9,
+     "win1": 2,
+     "win2": 1,
+     "win3": 3,
+     "win_rate": 22.2,
+     "quinella_rate": 33.3,
+     "show_rate": 66.7
     }
    },
    "recent": [
@@ -2763,16 +2763,16 @@
      "low_data": false
     },
     "distance": {
-     "grade": "B",
-     "low_data": true
+     "grade": "S",
+     "low_data": false
     },
     "stage": {
-     "grade": "B",
+     "grade": "C",
      "low_data": true
     },
     "going": {
-     "grade": "A",
-     "low_data": true
+     "grade": "S",
+     "low_data": false
     }
    }
   },
@@ -2780,13 +2780,13 @@
    "waku": 8,
    "umaban": 15,
    "horse_id": "2022105157",
-   "name": "�����若�吾�ャ�純�������若��",
-   "sex_age": "���4",
+   "name": "ルージュソリテール",
+   "sex_age": "牝4",
    "weight_carry": "55.0",
    "jockey_id": "01200",
-   "jockey": "茱水��",
+   "jockey": "西塚",
    "trainer_id": "01055",
-   "trainer": "��ゅ��",
+   "trainer": "藤原",
    "sire_id": "2008103552",
    "sire": "ロードカナロア",
    "sire_stats": {
@@ -2882,40 +2882,40 @@
      "show_rate": 62.5
     },
     "same_track": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
-     "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "starts": 8,
+     "win1": 3,
+     "win2": 1,
+     "win3": 1,
+     "win_rate": 37.5,
+     "quinella_rate": 50.0,
+     "show_rate": 62.5
     },
     "venue": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
+     "starts": 2,
+     "win1": 1,
+     "win2": 1,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 50.0,
+     "quinella_rate": 100.0,
+     "show_rate": 100.0
     },
     "exact_course": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
+     "starts": 2,
+     "win1": 1,
+     "win2": 1,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 50.0,
+     "quinella_rate": 100.0,
+     "show_rate": 100.0
     },
     "dist_band": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
-     "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "starts": 8,
+     "win1": 3,
+     "win2": 1,
+     "win3": 1,
+     "win_rate": 37.5,
+     "quinella_rate": 50.0,
+     "show_rate": 62.5
     }
    },
    "recent": [
@@ -2966,16 +2966,16 @@
      "low_data": false
     },
     "distance": {
-     "grade": "B",
-     "low_data": true
+     "grade": "S",
+     "low_data": false
     },
     "stage": {
-     "grade": "B",
+     "grade": "A",
      "low_data": true
     },
     "going": {
-     "grade": "B",
-     "low_data": true
+     "grade": "S",
+     "low_data": false
     }
    }
   },
@@ -2983,13 +2983,13 @@
    "waku": 8,
    "umaban": 16,
    "horse_id": "2021104894",
-   "name": "��祉�潟����＜�≪����若��",
-   "sex_age": "���5",
+   "name": "セントメモリーズ",
+   "sex_age": "牝5",
    "weight_carry": "52.0",
    "jockey_id": "01162",
-   "jockey": "���綛≦熊",
+   "jockey": "木幡巧",
    "trainer_id": "01220",
-   "trainer": "��上鮎",
+   "trainer": "松尾",
    "sire_id": "2010104155",
    "sire": "エピファネイア",
    "sire_stats": {
@@ -3085,22 +3085,22 @@
      "show_rate": 50.0
     },
     "same_track": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
+     "starts": 9,
+     "win1": 4,
+     "win2": 1,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 44.4,
+     "quinella_rate": 55.6,
+     "show_rate": 55.6
     },
     "venue": {
-     "starts": 0,
-     "win1": 0,
+     "starts": 3,
+     "win1": 2,
      "win2": 0,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 66.7,
+     "quinella_rate": 66.7,
+     "show_rate": 66.7
     },
     "exact_course": {
      "starts": 0,
@@ -3173,16 +3173,16 @@
      "low_data": true
     },
     "stage": {
-     "grade": "B",
-     "low_data": true
+     "grade": "S",
+     "low_data": false
     },
     "going": {
-     "grade": "C",
-     "low_data": true
+     "grade": "S",
+     "low_data": false
     }
    }
   }
  ],
- "generated_at": "2026-06-21 03:38:37",
+ "generated_at": "2026-06-21 03:41:19",
  "note": "種牡馬の競馬場別・コース別産駒集計はnetkeiba無料領域では非公開のため、産駒の芝/ダ別成績と各出走馬自身のコース実績を表示しています。"
 }
