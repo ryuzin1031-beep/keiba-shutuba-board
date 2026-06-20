@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>重賞出馬表データボード</title>
+<style>
+:root{
+  --bg:#0f1419; --panel:#1a2129; --panel2:#212b36; --line:#2e3b48;
+  --tx:#e8edf2; --tx2:#93a4b5; --accent:#3fa9f5;
+  --s:#f5c043; --a:#e5534b; --b:#3f8cd6; --c:#7a8794;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--tx);font-family:"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;font-size:14px}
+header{background:linear-gradient(135deg,#16202b,#1d2c3d);border-bottom:2px solid var(--accent);padding:18px 24px}
+header h1{font-size:22px;letter-spacing:.04em}
+header .meta{color:var(--tx2);margin-top:6px;font-size:13px}
+header .grade{display:inline-block;background:var(--a);color:#fff;border-radius:4px;padding:1px 8px;margin-left:8px;font-size:13px}
+.wrap{max-width:1100px;margin:0 auto;padding:16px;overflow-x:auto}
+.toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:10px 0 14px}
+.toolbar label{color:var(--tx2)}
+select,button{background:var(--panel2);color:var(--tx);border:1px solid var(--line);border-radius:6px;padding:6px 10px;font-size:13px;cursor:pointer}
+button:hover,select:hover{border-color:var(--accent)}
+.note{color:var(--tx2);font-size:12px;margin:8px 0 14px;line-height:1.6}
+table.main{width:100%;border-collapse:collapse;background:var(--panel);border-radius:8px;overflow:hidden}
+.main th{background:var(--panel2);color:var(--tx2);font-weight:600;font-size:12px;padding:8px 6px;border-bottom:1px solid var(--line);white-space:nowrap}
+.main td{padding:8px 6px;border-bottom:1px solid var(--line);text-align:center;white-space:nowrap}
+.main tr.horse{cursor:pointer}
+.main tr.horse:hover{background:#223040}
+.hname{text-align:left!important;font-weight:700;font-size:15px}
+.hsub{color:var(--tx2);font-weight:400;font-size:11px}
+.waku{display:inline-block;width:22px;height:22px;line-height:22px;border-radius:4px;font-weight:700;color:#000}
+.w1{background:#fff}.w2{background:#222;color:#fff}.w3{background:#e5534b;color:#fff}.w4{background:#3f8cd6;color:#fff}
+.w5{background:#f5c043}.w6{background:#3fae5a;color:#fff}.w7{background:#f08c2e;color:#fff}.w8{background:#e89bb4}
+.badge{display:inline-block;min-width:30px;padding:3px 0;border-radius:6px;font-weight:800;font-size:14px;color:#fff;cursor:pointer;user-select:none;border:2px solid transparent}
+.badge:hover{border-color:#fff8}
+.gS{background:var(--s);color:#3a2c00}.gA{background:var(--a)}.gB{background:var(--b)}.gC{background:var(--c)}
+.low{position:relative}
+.low::after{content:"※";font-size:9px;vertical-align:super}
+.badge.edited{box-shadow:0 0 0 2px var(--accent)}
+tr.detail td{background:#141b22;text-align:left;padding:14px 18px;white-space:normal}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:12px}
+.card{min-width:0;overflow-x:auto}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px}
+.card h3{font-size:13px;color:var(--accent);margin-bottom:8px;border-bottom:1px solid var(--line);padding-bottom:6px}
+.card table{width:100%;border-collapse:collapse;font-size:12px}
+.card td,.card th{padding:3px 4px;text-align:right;color:var(--tx);white-space:normal;word-break:keep-all}
+.card th{color:var(--tx2);font-weight:400;text-align:left;white-space:nowrap}
+.card .nodata{color:var(--tx2);font-size:12px}
+.recent li{list-style:none;font-size:12px;color:var(--tx2);padding:2px 0}
+.recent b{color:var(--tx);display:inline-block;width:20px}
+.f1{color:#f5c043;font-weight:700}.f23{color:#7ec3f0;font-weight:700}
+footer{color:var(--tx2);font-size:11px;text-align:center;padding:20px;line-height:1.7}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--tx2);margin:6px 0}
+</style>
+</head>
+<body>
+<header>
+  <h1 id="raceName">読み込み中...</h1>
+  <div class="meta" id="raceMeta"></div>
+</header>
+<div class="wrap">
+  <div class="toolbar">
+    <label>並び順:</label>
+    <select id="sortSel">
+      <option value="umaban">馬番順</option>
+      <option value="total">総合評価順</option>
+      <option value="ability">能力順</option>
+      <option value="distance">距離適性順</option>
+      <option value="stage">舞台適正順</option>
+      <option value="going">馬場適性順</option>
+    </select>
+    <button id="resetBtn">評価の手動修正をリセット</button>
+    <span class="legend">
+      <span><span class="badge gS">S</span> 抜群</span>
+      <span><span class="badge gA">A</span> 有力</span>
+      <span><span class="badge gB">B</span> 標準</span>
+      <span><span class="badge gC">C</span> 割引</span>
+      <span>※=データ少 / バッジをクリックで S→A→B→C を手動変更(自動保存)</span>
+    </span>
+  </div>
+  <table class="main">
+    <thead><tr>
+      <th>枠</th><th>馬番</th><th style="text-align:left">馬名 / 父</th><th>性齢</th><th>斤量</th>
+      <th>騎手</th><th>調教師</th>
+      <th>能力</th><th>距離<br>適性</th><th>舞台<br>適正</th><th>馬場<br>適性</th>
+    </tr></thead>
+    <tbody id="tbody"></tbody>
+  </table>
+  <p class="note" id="noteTxt"></p>
+</div>
+<footer>データ出典: netkeiba.com(個人利用目的) / 評価は過去成績からの自動算出+手動修正<br>
+<span id="genAt"></span></footer>
+<script>
+const GRADES=["S","A","B","C"];
+const KEYS=["ability","distance","stage","going"];
+const KEY_LABEL={ability:"能力",distance:"距離適性",stage:"舞台適正",going:"馬場適性"};
+let DATA=null, overrides={}, openSet=new Set();
+
+const lsKey=()=> "sabc_"+DATA.race.race_id;
+function loadOv(){ try{overrides=JSON.parse(localStorage.getItem(lsKey()))||{}}catch(e){overrides={}} }
+function saveOv(){ localStorage.setItem(lsKey(),JSON.stringify(overrides)) }
+function grade(h,k){ return (overrides[h.umaban]&&overrides[h.umaban][k])||h.ratings[k].grade }
+function isEdited(h,k){ return overrides[h.umaban]&&overrides[h.umaban][k] }
+function score(h){ return KEYS.reduce((s,k)=>s+(3-GRADES.indexOf(grade(h,k))),0) }
+
+function pct(v){ return v==null?"-":(typeof v==="string"?v:v.toFixed(1)+"%") }
+function rec(r,label){
+  if(!r||!r.starts) return `<tr><th>${label}</th><td colspan="2" class="nodata">出走なし</td></tr>`;
+  return `<tr><th>${label}</th><td>${r.win1}-${r.win2}-${r.win3}-${r.starts-r.win1-r.win2-r.win3}</td>
+  <td>勝率${pct(r.win_rate)} 複勝${pct(r.show_rate)}</td></tr>`;
+}
+function personCard(title,name,st){
+  if(!st||(!st.total&&!st.year)) return `<div class="card"><h3>${title}: ${name}</h3><p class="nodata">データ取得不可</p></div>`;
+  const row=(label,r)=>!r?"":`<tr><th>${label}</th><td>${r.win1}-${r.win2}-${r.win3}-${r.starts-r.win1-r.win2-r.win3}</td><td>勝率${r.win_rate} 連対${r.quinella_rate} 複勝${r.show_rate}</td></tr>`+
+    `<tr><th>　芝 / ダ</th><td colspan="2">芝 ${r.turf_wins}勝/${r.turf_starts}走　ダ ${r.dirt_wins}勝/${r.dirt_starts}走</td></tr>`;
+  return `<div class="card"><h3>${title}: ${name}</h3><table>${row("通算",st.total)}${row("今年",st.year)}</table></div>`;
+}
+function sireCard(h,race){
+  const st=h.sire_stats;
+  let inner;
+  if(!st||(!st.total&&!st.year)){
+    inner=`<p class="nodata">産駒集計データなし(海外供用種牡馬など)</p>`;
+  }else{
+    const row=(label,r)=>!r?"":`<tr><th>${label}</th><td>${r.wins}勝/${r.starts}走</td><td>勝率${pct(r.win_rate)}</td></tr>`+
+      `<tr><th>　${race.track==="芝"?"芝":"ダート"}成績</th><td>${race.track==="芝"?r.turf_wins+"勝/"+r.turf_starts+"走":r.dirt_wins+"勝/"+r.dirt_starts+"走"}</td><td>勝率${pct(race.track==="芝"?r.turf_win_rate:null)??""}</td></tr>`+
+      (r.avg_dist_turf?`<tr><th>　平均距離(芝)</th><td colspan="2">${r.avg_dist_turf}m</td></tr>`:"");
+    inner=`<table>${row("産駒通算",st.total)}${row("産駒今年",st.year)}</table>
+    <p class="nodata" style="margin-top:6px">※競馬場別の産駒集計は非公開のため、下の「本馬のコース実績」を参照</p>`;
+  }
+  return `<div class="card"><h3>種牡馬: ${h.sire}</h3>${inner}</div>`;
+}
+function courseCard(h,race){
+  const r=h.record;
+  return `<div class="card"><h3>本馬のコース実績</h3><table>
+    ${rec(r.career,"通算")}
+    ${rec(r.same_track,race.track+"全体")}
+    ${rec(r.venue,race.venue+race.track)}
+    ${rec(r.exact_course,race.venue+race.track+race.distance+"m")}
+    ${rec(r.dist_band,race.track+(race.distance-200)+"〜"+(race.distance+200)+"m")}
+  </table></div>`;
+}
+function recentCard(h){
+  const items=(h.recent||[]).map(r=>{
+    const f=r.finish==null?"-":r.finish;
+    const cls=f===1?"f1":(f===2||f===3)?"f23":"";
+    return `<li><b class="${cls}">${f}</b>着 ${r.date} ${r.venue}${r.track||""}${r.dist||""} ${r.race}</li>`;
+  }).join("");
+  return `<div class="card"><h3>近5走</h3><ul class="recent">${items||"<li class='nodata'>データなし</li>"}</ul></div>`;
+}
+
+function render(){
+  const race=DATA.race, tb=document.getElementById("tbody");
+  let hs=[...DATA.horses];
+  const mode=document.getElementById("sortSel").value;
+  if(mode==="total") hs.sort((a,b)=>score(b)-score(a)||a.umaban-b.umaban);
+  else if(KEYS.includes(mode)) hs.sort((a,b)=>GRADES.indexOf(grade(a,mode))-GRADES.indexOf(grade(b,mode))||a.umaban-b.umaban);
+  else hs.sort((a,b)=>a.umaban-b.umaban);
+  tb.innerHTML="";
+  for(const h of hs){
+    const tr=document.createElement("tr");
+    tr.className="horse";
+    tr.innerHTML=`<td><span class="waku w${h.waku}">${h.waku??""}</span></td>
+      <td>${h.umaban}</td>
+      <td class="hname">${h.name}<div class="hsub">父: ${h.sire}</div></td>
+      <td>${h.sex_age}</td><td>${h.weight_carry}</td>
+      <td>${h.jockey}<div class="hsub">${h.jockey_stats&&h.jockey_stats.year?("今年 勝率"+h.jockey_stats.year.win_rate):""}</div></td>
+      <td>${h.trainer}<div class="hsub">${h.trainer_stats&&h.trainer_stats.year?("今年 勝率"+h.trainer_stats.year.win_rate):""}</div></td>`+
+      KEYS.map(k=>{
+        const g=grade(h,k), low=h.ratings[k].low_data&&!isEdited(h,k);
+        return `<td><span class="badge g${g} ${low?"low":""} ${isEdited(h,k)?"edited":""}"
+          data-uma="${h.umaban}" data-key="${k}" title="${KEY_LABEL[k]}: クリックで変更">${g}</span></td>`;
+      }).join("");
+    tr.addEventListener("click",e=>{
+      if(e.target.classList.contains("badge")){
+        const u=e.target.dataset.uma,k=e.target.dataset.key;
+        const cur=grade(h,k), next=GRADES[(GRADES.indexOf(cur)+1)%4];
+        overrides[u]=overrides[u]||{}; overrides[u][k]=next;
+        if(next===h.ratings[k].grade) delete overrides[u][k];
+        saveOv(); render(); return;
+      }
+      if(openSet.has(h.umaban)) openSet.delete(h.umaban); else openSet.add(h.umaban);
+      render();
+    });
+    tb.appendChild(tr);
+    if(openSet.has(h.umaban)){
+      const dtr=document.createElement("tr");
+      dtr.className="detail";
+      dtr.innerHTML=`<td colspan="11"><div class="cards">
+        ${courseCard(h,race)}
+        ${sireCard(h,race)}
+        ${personCard("騎手",h.jockey,h.jockey_stats)}
+        ${personCard("調教師",h.trainer,h.trainer_stats)}
+        ${recentCard(h)}
+      </div></td>`;
+      tb.appendChild(dtr);
+    }
+  }
+}
+
+fetch("data.json").then(r=>r.json()).then(d=>{
+  DATA=d; loadOv();
+  const r=d.race;
+  document.getElementById("raceName").innerHTML=r.race_name.replace(/\((G\d|GI{1,3})\)/,'<span class="grade">$1</span>');
+  document.getElementById("raceMeta").textContent=`${r.date} ${r.venue}競馬場 ${r.track}${r.distance}m / ${r.cond}`;
+  document.getElementById("noteTxt").textContent=d.note||"";
+  document.getElementById("genAt").textContent="データ取得: "+d.generated_at;
+  document.getElementById("sortSel").addEventListener("change",render);
+  document.getElementById("resetBtn").addEventListener("click",()=>{overrides={};saveOv();render();});
+  render();
+});
+</script>
+</body>
+</html>
