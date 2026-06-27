@@ -1,1 +1,72 @@
-{}
+{
+ "1": {
+  "distance": "A",
+  "stage": "B",
+  "going": "A"
+ },
+ "2": {
+  "distance": "A",
+  "going": "B"
+ },
+ "3": {
+  "ability": "B",
+  "distance": "B",
+  "going": "B"
+ },
+ "4": {
+  "ability": "A"
+ },
+ "5": {
+  "distance": "A",
+  "going": "A"
+ },
+ "6": {
+  "stage": "B",
+  "going": "B"
+ },
+ "7": {
+  "distance": "C",
+  "stage": "B",
+  "going": "B"
+ },
+ "8": {
+  "ability": "A",
+  "distance": "B",
+  "going": "B"
+ },
+ "9": {
+  "ability": "C",
+  "stage": "B",
+  "going": "C"
+ },
+ "10": {
+  "ability": "B",
+  "stage": "A",
+  "going": "B"
+ },
+ "11": {
+  "ability": "B",
+  "distance": "A",
+  "going": "B"
+ },
+ "12": {
+  "ability": "S",
+  "distance": "A",
+  "stage": "A",
+  "going": "A"
+ },
+ "13": {
+  "stage": "A"
+ },
+ "14": {
+  "ability": "S",
+  "distance": "A",
+  "stage": "A"
+ },
+ "15": {
+  "distance": "B",
+  "stage": "B",
+  "going": "B",
+  "ability": "S"
+ }
+}
