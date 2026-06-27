@@ -1,196 +1,171 @@
 {
  "race": {
-  "race_id": "202605030611",
-  "race_name": "府中牝馬Ｓ(G3)",
-  "date": "2026/06/21",
-  "venue": "東京",
+  "race_id": "202602010611",
+  "race_name": "函館記念(G3)",
+  "date": "2026/06/28",
+  "venue": "函館",
   "track": "芝",
-  "distance": 1800,
-  "cond": "15:45発走 / 芝1800m (左 D) / 天候:雨 / 馬場:稍"
+  "distance": 2000,
+  "cond": "15:20発走 / 芝2000m (右 A)"
  },
  "horses": [
   {
    "waku": 1,
    "umaban": 1,
-   "horse_id": "2022100019",
-   "name": "マカナ",
-   "sex_age": "牝4",
-   "weight_carry": "50.0",
-   "jockey_id": "01085",
-   "jockey": "松岡",
-   "trainer_id": "01109",
-   "trainer": "伊藤大",
-   "sire_id": "2009102739",
-   "sire": "ゴールドシップ",
-   "sire_stats": {
-    "total": {
-     "starts": 4754,
-     "wins": 293,
-     "win_rate": 6.2,
-     "turf_starts": 3829,
-     "turf_wins": 240,
-     "turf_win_rate": 6.3,
-     "dirt_starts": 736,
-     "dirt_wins": 38,
-     "winner_rate": "30.9%",
-     "avg_dist_turf": "2045.0"
-    },
-    "year": {
-     "starts": 370,
-     "wins": 14,
-     "win_rate": 3.8,
-     "turf_starts": 279,
-     "turf_wins": 11,
-     "turf_win_rate": 3.9,
-     "dirt_starts": 67,
-     "dirt_wins": 2,
-     "winner_rate": "11.2%",
-     "avg_dist_turf": "2181.8"
-    }
-   },
+   "horse_id": "2022106633",
+   "name": "バルナバ",
+   "sex_age": "牡4",
+   "weight_carry": "55.0",
+   "jockey_id": "01178",
+   "jockey": "斎藤",
+   "trainer_id": "01138",
+   "trainer": "浜田",
+   "sire_id": "000a011996",
+   "sire": "ハービンジャー",
+   "sire_stats": null,
    "jockey_stats": {
     "total": {
-     "starts": 13453,
-     "win1": 910,
-     "win2": 940,
-     "win3": 1030,
-     "win_rate": "6.8%",
-     "quinella_rate": "13.8%",
-     "show_rate": "21.4%",
-     "turf_starts": 6734,
-     "turf_wins": 464,
-     "dirt_starts": 6719,
-     "dirt_wins": 446
+     "starts": 4355,
+     "win1": 275,
+     "win2": 277,
+     "win3": 270,
+     "win_rate": "6.3%",
+     "quinella_rate": "12.7%",
+     "show_rate": "18.9%",
+     "turf_starts": 2249,
+     "turf_wins": 125,
+     "dirt_starts": 2106,
+     "dirt_wins": 150
     },
     "year": {
-     "starts": 198,
-     "win1": 5,
-     "win2": 6,
-     "win3": 11,
-     "win_rate": "2.5%",
-     "quinella_rate": "5.6%",
-     "show_rate": "11.1%",
-     "turf_starts": 84,
-     "turf_wins": 2,
-     "dirt_starts": 114,
-     "dirt_wins": 3
+     "starts": 323,
+     "win1": 31,
+     "win2": 18,
+     "win3": 20,
+     "win_rate": "9.6%",
+     "quinella_rate": "15.2%",
+     "show_rate": "21.4%",
+     "turf_starts": 174,
+     "turf_wins": 15,
+     "dirt_starts": 149,
+     "dirt_wins": 16
     }
    },
    "trainer_stats": {
     "total": {
-     "starts": 4804,
-     "win1": 225,
-     "win2": 286,
-     "win3": 303,
-     "win_rate": "4.7%",
-     "quinella_rate": "10.6%",
-     "show_rate": "16.9%",
-     "turf_starts": 2602,
-     "turf_wins": 123,
-     "dirt_starts": 2171,
-     "dirt_wins": 99
+     "starts": 3275,
+     "win1": 220,
+     "win2": 221,
+     "win3": 229,
+     "win_rate": "6.7%",
+     "quinella_rate": "13.5%",
+     "show_rate": "20.5%",
+     "turf_starts": 1107,
+     "turf_wins": 72,
+     "dirt_starts": 2074,
+     "dirt_wins": 143
     },
     "year": {
-     "starts": 129,
-     "win1": 6,
-     "win2": 8,
-     "win3": 5,
-     "win_rate": "4.7%",
-     "quinella_rate": "10.9%",
-     "show_rate": "14.7%",
-     "turf_starts": 84,
+     "starts": 133,
+     "win1": 10,
+     "win2": 7,
+     "win3": 8,
+     "win_rate": "7.5%",
+     "quinella_rate": "12.8%",
+     "show_rate": "18.8%",
+     "turf_starts": 36,
      "turf_wins": 3,
-     "dirt_starts": 45,
-     "dirt_wins": 3
+     "dirt_starts": 95,
+     "dirt_wins": 7
     }
    },
    "record": {
     "career": {
-     "starts": 12,
-     "win1": 3,
-     "win2": 3,
+     "starts": 13,
+     "win1": 4,
+     "win2": 1,
      "win3": 2,
-     "win_rate": 25.0,
-     "quinella_rate": 50.0,
-     "show_rate": 66.7
+     "win_rate": 30.8,
+     "quinella_rate": 38.5,
+     "show_rate": 53.8
     },
     "same_track": {
-     "starts": 12,
-     "win1": 3,
-     "win2": 3,
+     "starts": 13,
+     "win1": 4,
+     "win2": 1,
      "win3": 2,
-     "win_rate": 25.0,
-     "quinella_rate": 50.0,
-     "show_rate": 66.7
+     "win_rate": 30.8,
+     "quinella_rate": 38.5,
+     "show_rate": 53.8
     },
     "venue": {
      "starts": 1,
-     "win1": 1,
+     "win1": 0,
      "win2": 0,
-     "win3": 0,
-     "win_rate": 100.0,
-     "quinella_rate": 100.0,
+     "win3": 1,
+     "win_rate": 0.0,
+     "quinella_rate": 0.0,
      "show_rate": 100.0
     },
     "exact_course": {
-     "starts": 1,
-     "win1": 1,
+     "starts": 0,
+     "win1": 0,
      "win2": 0,
      "win3": 0,
-     "win_rate": 100.0,
-     "quinella_rate": 100.0,
-     "show_rate": 100.0
+     "win_rate": null,
+     "quinella_rate": null,
+     "show_rate": null
     },
     "dist_band": {
      "starts": 11,
-     "win1": 3,
-     "win2": 3,
-     "win3": 2,
-     "win_rate": 27.3,
-     "quinella_rate": 54.5,
-     "show_rate": 72.7
+     "win1": 4,
+     "win2": 1,
+     "win3": 1,
+     "win_rate": 36.4,
+     "quinella_rate": 45.5,
+     "show_rate": 54.5
     }
    },
    "recent": [
     {
-     "date": "2026/05/23",
-     "race": "シドニーT(3勝クラス)",
-     "venue": "京都",
+     "date": "2026/04/12",
+     "race": "福島民報杯(L)",
+     "venue": "福島",
      "track": "芝",
      "dist": 2000,
-     "finish": 12
+     "finish": 9
     },
     {
-     "date": "2025/11/16",
-     "race": "3歳以上2勝クラス",
-     "venue": "東京",
+     "date": "2026/03/01",
+     "race": "関門橋S(3勝クラス)",
+     "venue": "小倉",
+     "track": "芝",
+     "dist": 2000,
+     "finish": 1
+    },
+    {
+     "date": "2026/02/01",
+     "race": "八坂S(3勝クラス)",
+     "venue": "京都",
+     "track": "芝",
+     "dist": 2200,
+     "finish": 4
+    },
+    {
+     "date": "2025/12/14",
+     "race": "一宮特別(2勝クラス)",
+     "venue": "中京",
+     "track": "芝",
+     "dist": 2200,
+     "finish": 1
+    },
+    {
+     "date": "2025/11/22",
+     "race": "高湯温泉特別(1勝クラス)",
+     "venue": "福島",
      "track": "芝",
      "dist": 1800,
      "finish": 1
-    },
-    {
-     "date": "2025/08/31",
-     "race": "3歳以上1勝クラス",
-     "venue": "新潟",
-     "track": "芝",
-     "dist": 2000,
-     "finish": 1
-    },
-    {
-     "date": "2025/08/03",
-     "race": "3歳未勝利",
-     "venue": "新潟",
-     "track": "芝",
-     "dist": 2000,
-     "finish": 1
-    },
-    {
-     "date": "2025/07/05",
-     "race": "3歳未勝利",
-     "venue": "函館",
-     "track": "芝",
-     "dist": 2000,
-     "finish": 2
     }
    ],
    "ratings": {
@@ -213,127 +188,127 @@
    }
   },
   {
-   "waku": 1,
+   "waku": 2,
    "umaban": 2,
-   "horse_id": "2022106232",
-   "name": "ウイントワイライト",
-   "sex_age": "牝4",
-   "weight_carry": "53.0",
-   "jockey_id": "00660",
-   "jockey": "横山典",
-   "trainer_id": "01196",
-   "trainer": "西園翔",
-   "sire_id": "2014106201",
-   "sire": "レイデオロ",
+   "horse_id": "2022104218",
+   "name": "ファウストラーゼン",
+   "sex_age": "牡4",
+   "weight_carry": "56.0",
+   "jockey_id": "01206",
+   "jockey": "小林美",
+   "trainer_id": "01105",
+   "trainer": "須貝",
+   "sire_id": "2014110031",
+   "sire": "モズアスコット",
    "sire_stats": {
     "total": {
-     "starts": 1886,
-     "wins": 176,
-     "win_rate": 9.3,
-     "turf_starts": 1294,
-     "turf_wins": 134,
-     "turf_win_rate": 10.4,
-     "dirt_starts": 553,
-     "dirt_wins": 42,
-     "winner_rate": "30.7%",
-     "avg_dist_turf": "1931.3"
+     "starts": 943,
+     "wins": 100,
+     "win_rate": 10.6,
+     "turf_starts": 365,
+     "turf_wins": 27,
+     "turf_win_rate": 7.4,
+     "dirt_starts": 577,
+     "dirt_wins": 73,
+     "winner_rate": "40.9%",
+     "avg_dist_turf": "1503.7"
     },
     "year": {
-     "starts": 403,
-     "wins": 43,
-     "win_rate": 10.7,
-     "turf_starts": 264,
-     "turf_wins": 31,
-     "turf_win_rate": 11.7,
-     "dirt_starts": 123,
-     "dirt_wins": 12,
-     "winner_rate": "26.7%",
-     "avg_dist_turf": "1967.7"
+     "starts": 308,
+     "wins": 36,
+     "win_rate": 11.7,
+     "turf_starts": 105,
+     "turf_wins": 4,
+     "turf_win_rate": 3.8,
+     "dirt_starts": 203,
+     "dirt_wins": 32,
+     "winner_rate": "28.2%",
+     "avg_dist_turf": "1400.0"
     }
    },
    "jockey_stats": {
     "total": {
-     "starts": 21940,
-     "win1": 3010,
-     "win2": 2571,
-     "win3": 2268,
-     "win_rate": "13.7%",
-     "quinella_rate": "25.4%",
-     "show_rate": "35.8%",
-     "turf_starts": 11383,
-     "turf_wins": 1421,
-     "dirt_starts": 10545,
-     "dirt_wins": 1588
+     "starts": 1217,
+     "win1": 86,
+     "win2": 76,
+     "win3": 78,
+     "win_rate": "7.1%",
+     "quinella_rate": "13.3%",
+     "show_rate": "19.7%",
+     "turf_starts": 547,
+     "turf_wins": 31,
+     "dirt_starts": 670,
+     "dirt_wins": 55
     },
     "year": {
-     "starts": 143,
-     "win1": 14,
-     "win2": 14,
+     "starts": 206,
+     "win1": 20,
+     "win2": 11,
      "win3": 11,
-     "win_rate": "9.8%",
-     "quinella_rate": "19.6%",
-     "show_rate": "27.3%",
-     "turf_starts": 83,
+     "win_rate": "9.7%",
+     "quinella_rate": "15.0%",
+     "show_rate": "20.4%",
+     "turf_starts": 101,
      "turf_wins": 7,
-     "dirt_starts": 60,
-     "dirt_wins": 7
+     "dirt_starts": 105,
+     "dirt_wins": 13
     }
    },
    "trainer_stats": {
     "total": {
-     "starts": 817,
-     "win1": 69,
-     "win2": 80,
-     "win3": 59,
-     "win_rate": "8.4%",
-     "quinella_rate": "18.2%",
-     "show_rate": "25.5%",
-     "turf_starts": 400,
-     "turf_wins": 35,
-     "dirt_starts": 402,
-     "dirt_wins": 34
+     "starts": 5385,
+     "win1": 609,
+     "win2": 575,
+     "win3": 545,
+     "win_rate": "11.3%",
+     "quinella_rate": "22.0%",
+     "show_rate": "32.1%",
+     "turf_starts": 3590,
+     "turf_wins": 419,
+     "dirt_starts": 1761,
+     "dirt_wins": 187
     },
     "year": {
-     "starts": 124,
-     "win1": 10,
-     "win2": 10,
-     "win3": 7,
-     "win_rate": "8.1%",
-     "quinella_rate": "16.1%",
-     "show_rate": "21.8%",
-     "turf_starts": 64,
-     "turf_wins": 8,
-     "dirt_starts": 60,
+     "starts": 161,
+     "win1": 8,
+     "win2": 20,
+     "win3": 15,
+     "win_rate": "5.0%",
+     "quinella_rate": "17.4%",
+     "show_rate": "26.7%",
+     "turf_starts": 117,
+     "turf_wins": 6,
+     "dirt_starts": 44,
      "dirt_wins": 2
     }
    },
    "record": {
     "career": {
-     "starts": 8,
-     "win1": 4,
+     "starts": 9,
+     "win1": 2,
      "win2": 0,
-     "win3": 0,
-     "win_rate": 50.0,
-     "quinella_rate": 50.0,
-     "show_rate": 50.0
+     "win3": 1,
+     "win_rate": 22.2,
+     "quinella_rate": 22.2,
+     "show_rate": 33.3
     },
     "same_track": {
-     "starts": 7,
-     "win1": 3,
+     "starts": 9,
+     "win1": 2,
      "win2": 0,
-     "win3": 0,
-     "win_rate": 42.9,
-     "quinella_rate": 42.9,
-     "show_rate": 42.9
+     "win3": 1,
+     "win_rate": 22.2,
+     "quinella_rate": 22.2,
+     "show_rate": 33.3
     },
     "venue": {
-     "starts": 4,
-     "win1": 3,
+     "starts": 0,
+     "win1": 0,
      "win2": 0,
      "win3": 0,
-     "win_rate": 75.0,
-     "quinella_rate": 75.0,
-     "show_rate": 75.0
+     "win_rate": null,
+     "quinella_rate": null,
+     "show_rate": null
     },
     "exact_course": {
      "starts": 0,
@@ -345,69 +320,69 @@
      "show_rate": null
     },
     "dist_band": {
-     "starts": 0,
-     "win1": 0,
+     "starts": 6,
+     "win1": 2,
      "win2": 0,
-     "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win3": 1,
+     "win_rate": 33.3,
+     "quinella_rate": 33.3,
+     "show_rate": 50.0
     }
    },
    "recent": [
     {
-     "date": "2026/05/02",
-     "race": "京王杯スプリングC(GII)",
-     "venue": "東京",
-     "track": "芝",
-     "dist": 1400,
-     "finish": 16
-    },
-    {
-     "date": "2026/03/22",
-     "race": "愛知杯(GIII)",
-     "venue": "中京",
-     "track": "芝",
-     "dist": 1400,
-     "finish": 7
-    },
-    {
-     "date": "2026/02/01",
-     "race": "節分S(3勝クラス)",
-     "venue": "東京",
-     "track": "芝",
-     "dist": 1400,
-     "finish": 1
-    },
-    {
-     "date": "2025/12/21",
-     "race": "六甲アイランドS(3勝クラス)",
+     "date": "2026/04/05",
+     "race": "大阪杯(GI)",
      "venue": "阪神",
      "track": "芝",
-     "dist": 1400,
+     "dist": 2000,
+     "finish": 13
+    },
+    {
+     "date": "2026/02/21",
+     "race": "ダイヤモンドS(GIII)",
+     "venue": "東京",
+     "track": "芝",
+     "dist": 3400,
+     "finish": 15
+    },
+    {
+     "date": "2026/01/25",
+     "race": "アメリカジョッキーC(GII)",
+     "venue": "中山",
+     "track": "芝",
+     "dist": 2200,
      "finish": 12
     },
     {
-     "date": "2025/10/25",
-     "race": "精進湖特別(2勝クラス)",
+     "date": "2025/06/01",
+     "race": "東京優駿(GI)",
      "venue": "東京",
      "track": "芝",
-     "dist": 1400,
-     "finish": 1
+     "dist": 2400,
+     "finish": 18
+    },
+    {
+     "date": "2025/04/20",
+     "race": "皐月賞(GI)",
+     "venue": "中山",
+     "track": "芝",
+     "dist": 2000,
+     "finish": 15
     }
    ],
    "ratings": {
     "ability": {
-     "grade": "C",
+     "grade": "B",
      "low_data": false
     },
     "distance": {
-     "grade": "B",
-     "low_data": true
-    },
-    "stage": {
      "grade": "S",
      "low_data": false
+    },
+    "stage": {
+     "grade": "B",
+     "low_data": true
     },
     "going": {
      "grade": "A",
@@ -418,125 +393,125 @@
   {
    "waku": 2,
    "umaban": 3,
-   "horse_id": "2022104994",
-   "name": "ブラウンラチェット",
-   "sex_age": "牝4",
-   "weight_carry": "54.0",
-   "jockey_id": "01127",
-   "jockey": "丸山",
-   "trainer_id": "01038",
-   "trainer": "手塚久",
-   "sire_id": "2010105827",
-   "sire": "キズナ",
+   "horse_id": "2021101134",
+   "name": "ピースワンデュック",
+   "sex_age": "牡5",
+   "weight_carry": "55.0",
+   "jockey_id": "01197",
+   "jockey": "佐々木",
+   "trainer_id": "01102",
+   "trainer": "大竹",
+   "sire_id": "2012101402",
+   "sire": "グレーターロンドン",
    "sire_stats": {
     "total": {
-     "starts": 8657,
-     "wins": 953,
-     "win_rate": 11.0,
-     "turf_starts": 5372,
-     "turf_wins": 583,
-     "turf_win_rate": 10.9,
-     "dirt_starts": 3031,
-     "dirt_wins": 326,
-     "winner_rate": "50.2%",
-     "avg_dist_turf": "1818.7"
+     "starts": 694,
+     "wins": 75,
+     "win_rate": 10.8,
+     "turf_starts": 488,
+     "turf_wins": 55,
+     "turf_win_rate": 11.3,
+     "dirt_starts": 184,
+     "dirt_wins": 18,
+     "winner_rate": "42.9%",
+     "avg_dist_turf": "1616.4"
     },
     "year": {
-     "starts": 592,
-     "wins": 72,
-     "win_rate": 12.2,
-     "turf_starts": 359,
-     "turf_wins": 43,
-     "turf_win_rate": 12.0,
-     "dirt_starts": 205,
-     "dirt_wins": 25,
-     "winner_rate": "26.1%",
-     "avg_dist_turf": "1990.7"
+     "starts": 114,
+     "wins": 7,
+     "win_rate": 6.1,
+     "turf_starts": 74,
+     "turf_wins": 3,
+     "turf_win_rate": 4.1,
+     "dirt_starts": 38,
+     "dirt_wins": 4,
+     "winner_rate": "15.8%",
+     "avg_dist_turf": "1400.0"
     }
    },
    "jockey_stats": {
     "total": {
-     "starts": 10287,
-     "win1": 701,
-     "win2": 748,
-     "win3": 805,
-     "win_rate": "6.8%",
-     "quinella_rate": "14.1%",
-     "show_rate": "21.9%",
-     "turf_starts": 5365,
-     "turf_wins": 341,
-     "dirt_starts": 4922,
-     "dirt_wins": 360
+     "starts": 3109,
+     "win1": 260,
+     "win2": 236,
+     "win3": 257,
+     "win_rate": "8.4%",
+     "quinella_rate": "16.0%",
+     "show_rate": "24.2%",
+     "turf_starts": 1590,
+     "turf_wins": 149,
+     "dirt_starts": 1519,
+     "dirt_wins": 111
     },
     "year": {
-     "starts": 204,
-     "win1": 15,
-     "win2": 18,
-     "win3": 21,
-     "win_rate": "7.4%",
-     "quinella_rate": "16.2%",
-     "show_rate": "26.5%",
-     "turf_starts": 117,
-     "turf_wins": 10,
-     "dirt_starts": 87,
-     "dirt_wins": 5
+     "starts": 406,
+     "win1": 25,
+     "win2": 39,
+     "win3": 26,
+     "win_rate": "6.2%",
+     "quinella_rate": "15.8%",
+     "show_rate": "22.2%",
+     "turf_starts": 185,
+     "turf_wins": 14,
+     "dirt_starts": 221,
+     "dirt_wins": 11
     }
    },
    "trainer_stats": {
     "total": {
-     "starts": 7450,
-     "win1": 743,
-     "win2": 683,
-     "win3": 651,
-     "win_rate": "10.0%",
-     "quinella_rate": "19.1%",
-     "show_rate": "27.9%",
-     "turf_starts": 4122,
-     "turf_wins": 416,
-     "dirt_starts": 3258,
-     "dirt_wins": 316
+     "starts": 4239,
+     "win1": 420,
+     "win2": 339,
+     "win3": 316,
+     "win_rate": "9.9%",
+     "quinella_rate": "17.9%",
+     "show_rate": "25.4%",
+     "turf_starts": 2460,
+     "turf_wins": 258,
+     "dirt_starts": 1742,
+     "dirt_wins": 156
     },
     "year": {
-     "starts": 147,
-     "win1": 23,
-     "win2": 14,
-     "win3": 12,
-     "win_rate": "15.6%",
-     "quinella_rate": "25.2%",
-     "show_rate": "33.3%",
-     "turf_starts": 91,
+     "starts": 143,
+     "win1": 24,
+     "win2": 19,
+     "win3": 13,
+     "win_rate": "16.8%",
+     "quinella_rate": "30.1%",
+     "show_rate": "39.2%",
+     "turf_starts": 94,
      "turf_wins": 16,
-     "dirt_starts": 53,
-     "dirt_wins": 7
+     "dirt_starts": 49,
+     "dirt_wins": 8
     }
    },
    "record": {
     "career": {
-     "starts": 8,
-     "win1": 2,
-     "win2": 0,
+     "starts": 11,
+     "win1": 4,
+     "win2": 1,
      "win3": 0,
-     "win_rate": 25.0,
-     "quinella_rate": 25.0,
-     "show_rate": 25.0
+     "win_rate": 36.4,
+     "quinella_rate": 45.5,
+     "show_rate": 45.5
     },
     "same_track": {
-     "starts": 8,
-     "win1": 2,
-     "win2": 0,
+     "starts": 11,
+     "win1": 4,
+     "win2": 1,
      "win3": 0,
-     "win_rate": 25.0,
-     "quinella_rate": 25.0,
-     "show_rate": 25.0
+     "win_rate": 36.4,
+     "quinella_rate": 45.5,
+     "show_rate": 45.5
     },
     "venue": {
-     "starts": 2,
-     "win1": 1,
+     "starts": 0,
+     "win1": 0,
      "win2": 0,
      "win3": 0,
-     "win_rate": 50.0,
-     "quinella_rate": 50.0,
-     "show_rate": 50.0
+     "win_rate": null,
+     "quinella_rate": null,
+     "show_rate": null
     },
     "exact_course": {
      "starts": 0,
@@ -548,60 +523,263 @@
      "show_rate": null
     },
     "dist_band": {
-     "starts": 7,
+     "starts": 8,
      "win1": 2,
-     "win2": 0,
+     "win2": 1,
      "win3": 0,
-     "win_rate": 28.6,
-     "quinella_rate": 28.6,
-     "show_rate": 28.6
+     "win_rate": 25.0,
+     "quinella_rate": 37.5,
+     "show_rate": 37.5
     }
    },
    "recent": [
     {
-     "date": "2026/04/19",
-     "race": "福島牝馬S(GIII)",
+     "date": "2026/04/12",
+     "race": "福島民報杯(L)",
      "venue": "福島",
      "track": "芝",
-     "dist": 1800,
-     "finish": 11
-    },
-    {
-     "date": "2026/01/24",
-     "race": "小倉牝馬S(GIII)",
-     "venue": "小倉",
-     "track": "芝",
      "dist": 2000,
-     "finish": 13
+     "finish": 14
     },
     {
-     "date": "2025/10/19",
-     "race": "秋華賞(GI)",
-     "venue": "京都",
-     "track": "芝",
-     "dist": 2000,
-     "finish": 18
-    },
-    {
-     "date": "2025/05/25",
-     "race": "優駿牝馬(GI)",
+     "date": "2026/01/31",
+     "race": "白富士S(L)",
      "venue": "東京",
      "track": "芝",
-     "dist": 2400,
-     "finish": 7
+     "dist": 2000,
+     "finish": 5
     },
     {
-     "date": "2025/04/13",
-     "race": "桜花賞(GI)",
-     "venue": "阪神",
+     "date": "2026/01/04",
+     "race": "日刊スポ賞中山金杯(GIII)",
+     "venue": "中山",
      "track": "芝",
-     "dist": 1600,
-     "finish": 9
+     "dist": 2000,
+     "finish": 5
+    },
+    {
+     "date": "2025/12/13",
+     "race": "中日新聞杯(GIII)",
+     "venue": "中京",
+     "track": "芝",
+     "dist": 2000,
+     "finish": 6
+    },
+    {
+     "date": "2025/10/25",
+     "race": "カシオペアS(L)",
+     "venue": "京都",
+     "track": "芝",
+     "dist": 1800,
+     "finish": 6
     }
    ],
    "ratings": {
     "ability": {
      "grade": "C",
+     "low_data": false
+    },
+    "distance": {
+     "grade": "A",
+     "low_data": false
+    },
+    "stage": {
+     "grade": "B",
+     "low_data": true
+    },
+    "going": {
+     "grade": "S",
+     "low_data": false
+    }
+   }
+  },
+  {
+   "waku": 3,
+   "umaban": 4,
+   "horse_id": "2022104772",
+   "name": "マジックサンズ",
+   "sex_age": "牡4",
+   "weight_carry": "58.0",
+   "jockey_id": "01140",
+   "jockey": "横山和",
+   "trainer_id": "01105",
+   "trainer": "須貝",
+   "sire_id": "2010105827",
+   "sire": "キズナ",
+   "sire_stats": {
+    "total": {
+     "starts": 8690,
+     "wins": 957,
+     "win_rate": 11.0,
+     "turf_starts": 5396,
+     "turf_wins": 586,
+     "turf_win_rate": 10.9,
+     "dirt_starts": 3039,
+     "dirt_wins": 326,
+     "winner_rate": "49.9%",
+     "avg_dist_turf": "1818.6"
+    },
+    "year": {
+     "starts": 625,
+     "wins": 76,
+     "win_rate": 12.2,
+     "turf_starts": 383,
+     "turf_wins": 46,
+     "turf_win_rate": 12.0,
+     "dirt_starts": 213,
+     "dirt_wins": 25,
+     "winner_rate": "26.5%",
+     "avg_dist_turf": "1978.3"
+    }
+   },
+   "jockey_stats": {
+    "total": {
+     "starts": 6850,
+     "win1": 533,
+     "win2": 454,
+     "win3": 473,
+     "win_rate": "7.8%",
+     "quinella_rate": "14.4%",
+     "show_rate": "21.3%",
+     "turf_starts": 3250,
+     "turf_wins": 256,
+     "dirt_starts": 3600,
+     "dirt_wins": 277
+    },
+    "year": {
+     "starts": 288,
+     "win1": 39,
+     "win2": 18,
+     "win3": 24,
+     "win_rate": "13.5%",
+     "quinella_rate": "19.8%",
+     "show_rate": "28.1%",
+     "turf_starts": 123,
+     "turf_wins": 16,
+     "dirt_starts": 165,
+     "dirt_wins": 23
+    }
+   },
+   "trainer_stats": {
+    "total": {
+     "starts": 5385,
+     "win1": 609,
+     "win2": 575,
+     "win3": 545,
+     "win_rate": "11.3%",
+     "quinella_rate": "22.0%",
+     "show_rate": "32.1%",
+     "turf_starts": 3590,
+     "turf_wins": 419,
+     "dirt_starts": 1761,
+     "dirt_wins": 187
+    },
+    "year": {
+     "starts": 161,
+     "win1": 8,
+     "win2": 20,
+     "win3": 15,
+     "win_rate": "5.0%",
+     "quinella_rate": "17.4%",
+     "show_rate": "26.7%",
+     "turf_starts": 117,
+     "turf_wins": 6,
+     "dirt_starts": 44,
+     "dirt_wins": 2
+    }
+   },
+   "record": {
+    "career": {
+     "starts": 10,
+     "win1": 2,
+     "win2": 1,
+     "win3": 0,
+     "win_rate": 20.0,
+     "quinella_rate": 30.0,
+     "show_rate": 30.0
+    },
+    "same_track": {
+     "starts": 10,
+     "win1": 2,
+     "win2": 1,
+     "win3": 0,
+     "win_rate": 20.0,
+     "quinella_rate": 30.0,
+     "show_rate": 30.0
+    },
+    "venue": {
+     "starts": 1,
+     "win1": 1,
+     "win2": 0,
+     "win3": 0,
+     "win_rate": 100.0,
+     "quinella_rate": 100.0,
+     "show_rate": 100.0
+    },
+    "exact_course": {
+     "starts": 0,
+     "win1": 0,
+     "win2": 0,
+     "win3": 0,
+     "win_rate": null,
+     "quinella_rate": null,
+     "show_rate": null
+    },
+    "dist_band": {
+     "starts": 6,
+     "win1": 2,
+     "win2": 0,
+     "win3": 0,
+     "win_rate": 33.3,
+     "quinella_rate": 33.3,
+     "show_rate": 33.3
+    }
+   },
+   "recent": [
+    {
+     "date": "2026/05/09",
+     "race": "エプソムC(GIII)",
+     "venue": "東京",
+     "track": "芝",
+     "dist": 1800,
+     "finish": 4
+    },
+    {
+     "date": "2026/03/01",
+     "race": "中山記念(GII)",
+     "venue": "中山",
+     "track": "芝",
+     "dist": 1800,
+     "finish": 6
+    },
+    {
+     "date": "2026/02/10",
+     "race": "東京新聞杯(GIII)",
+     "venue": "東京",
+     "track": "芝",
+     "dist": 1600,
+     "finish": 12
+    },
+    {
+     "date": "2025/11/23",
+     "race": "マイルチャンピオンS(GI)",
+     "venue": "京都",
+     "track": "芝",
+     "dist": 1600,
+     "finish": 8
+    },
+    {
+     "date": "2025/10/18",
+     "race": "富士S(GII)",
+     "venue": "東京",
+     "track": "芝",
+     "dist": 1600,
+     "finish": 10
+    }
+   ],
+   "ratings": {
+    "ability": {
+     "grade": "B",
      "low_data": false
     },
     "distance": {
@@ -610,209 +788,6 @@
     },
     "stage": {
      "grade": "A",
-     "low_data": true
-    },
-    "going": {
-     "grade": "B",
-     "low_data": false
-    }
-   }
-  },
-  {
-   "waku": 2,
-   "umaban": 4,
-   "horse_id": "2021105801",
-   "name": "ミアネーロ",
-   "sex_age": "牝5",
-   "weight_carry": "55.0",
-   "jockey_id": "01096",
-   "jockey": "大野",
-   "trainer_id": "01163",
-   "trainer": "林",
-   "sire_id": "2012104511",
-   "sire": "ドゥラメンテ",
-   "sire_stats": {
-    "total": {
-     "starts": 5770,
-     "wins": 576,
-     "win_rate": 10.0,
-     "turf_starts": 3638,
-     "turf_wins": 368,
-     "turf_win_rate": 10.1,
-     "dirt_starts": 2062,
-     "dirt_wins": 198,
-     "winner_rate": "42.3%",
-     "avg_dist_turf": "1890.8"
-    },
-    "year": {
-     "starts": 238,
-     "wins": 20,
-     "win_rate": 8.4,
-     "turf_starts": 149,
-     "turf_wins": 12,
-     "turf_win_rate": 8.1,
-     "dirt_starts": 80,
-     "dirt_wins": 6,
-     "winner_rate": "20.9%",
-     "avg_dist_turf": "2150.0"
-    }
-   },
-   "jockey_stats": {
-    "total": {
-     "starts": 13961,
-     "win1": 758,
-     "win2": 898,
-     "win3": 1028,
-     "win_rate": "5.4%",
-     "quinella_rate": "11.9%",
-     "show_rate": "19.2%",
-     "turf_starts": 6897,
-     "turf_wins": 353,
-     "dirt_starts": 7063,
-     "dirt_wins": 405
-    },
-    "year": {
-     "starts": 242,
-     "win1": 6,
-     "win2": 21,
-     "win3": 20,
-     "win_rate": "2.5%",
-     "quinella_rate": "11.2%",
-     "show_rate": "19.4%",
-     "turf_starts": 102,
-     "turf_wins": 1,
-     "dirt_starts": 140,
-     "dirt_wins": 5
-    }
-   },
-   "trainer_stats": {
-    "total": {
-     "starts": 1830,
-     "win1": 167,
-     "win2": 145,
-     "win3": 132,
-     "win_rate": "9.1%",
-     "quinella_rate": "17.0%",
-     "show_rate": "24.3%",
-     "turf_starts": 912,
-     "turf_wins": 98,
-     "dirt_starts": 918,
-     "dirt_wins": 69
-    },
-    "year": {
-     "starts": 107,
-     "win1": 9,
-     "win2": 16,
-     "win3": 15,
-     "win_rate": "8.4%",
-     "quinella_rate": "23.4%",
-     "show_rate": "37.4%",
-     "turf_starts": 53,
-     "turf_wins": 2,
-     "dirt_starts": 54,
-     "dirt_wins": 7
-    }
-   },
-   "record": {
-    "career": {
-     "starts": 12,
-     "win1": 2,
-     "win2": 1,
-     "win3": 0,
-     "win_rate": 16.7,
-     "quinella_rate": 25.0,
-     "show_rate": 25.0
-    },
-    "same_track": {
-     "starts": 11,
-     "win1": 2,
-     "win2": 1,
-     "win3": 0,
-     "win_rate": 18.2,
-     "quinella_rate": 27.3,
-     "show_rate": 27.3
-    },
-    "venue": {
-     "starts": 3,
-     "win1": 0,
-     "win2": 0,
-     "win3": 0,
-     "win_rate": 0.0,
-     "quinella_rate": 0.0,
-     "show_rate": 0.0
-    },
-    "exact_course": {
-     "starts": 1,
-     "win1": 0,
-     "win2": 0,
-     "win3": 0,
-     "win_rate": 0.0,
-     "quinella_rate": 0.0,
-     "show_rate": 0.0
-    },
-    "dist_band": {
-     "starts": 9,
-     "win1": 2,
-     "win2": 1,
-     "win3": 0,
-     "win_rate": 22.2,
-     "quinella_rate": 33.3,
-     "show_rate": 33.3
-    }
-   },
-   "recent": [
-    {
-     "date": "2026/03/08",
-     "race": "総武S(OP)",
-     "venue": "中山",
-     "track": "ダ",
-     "dist": 1800,
-     "finish": 15
-    },
-    {
-     "date": "2025/10/19",
-     "race": "新潟牝馬S(L)",
-     "venue": "新潟",
-     "track": "芝",
-     "dist": 2200,
-     "finish": 4
-    },
-    {
-     "date": "2025/06/22",
-     "race": "府中牝馬S(GIII)",
-     "venue": "東京",
-     "track": "芝",
-     "dist": 1800,
-     "finish": 11
-    },
-    {
-     "date": "2025/05/18",
-     "race": "ヴィクトリアマイル(GI)",
-     "venue": "東京",
-     "track": "芝",
-     "dist": 1600,
-     "finish": null
-    },
-    {
-     "date": "2025/03/08",
-     "race": "中山牝馬S(GIII)",
-     "venue": "中山",
-     "track": "芝",
-     "dist": 1800,
-     "finish": 8
-    }
-   ],
-   "ratings": {
-    "ability": {
-     "grade": "B",
-     "low_data": false
-    },
-    "distance": {
-     "grade": "B",
-     "low_data": false
-    },
-    "stage": {
-     "grade": "C",
      "low_data": true
     },
     "going": {
@@ -824,328 +799,125 @@
   {
    "waku": 3,
    "umaban": 5,
-   "horse_id": "2022101192",
-   "name": "エストゥペンダ",
-   "sex_age": "牝4",
-   "weight_carry": "54.0",
-   "jockey_id": "01160",
-   "jockey": "荻野極",
-   "trainer_id": "01118",
-   "trainer": "高柳瑞",
-   "sire_id": "2016104505",
-   "sire": "サートゥルナーリア",
+   "horse_id": "2022100699",
+   "name": "イガッチ",
+   "sex_age": "牡4",
+   "weight_carry": "55.0",
+   "jockey_id": "01115",
+   "jockey": "浜中",
+   "trainer_id": "01104",
+   "trainer": "笹田",
+   "sire_id": "2012104889",
+   "sire": "リアルスティール",
    "sire_stats": {
     "total": {
-     "starts": 1241,
-     "wins": 143,
-     "win_rate": 11.5,
-     "turf_starts": 892,
-     "turf_wins": 121,
-     "turf_win_rate": 13.6,
-     "dirt_starts": 349,
-     "dirt_wins": 22,
-     "winner_rate": "33.1%",
-     "avg_dist_turf": "1734.7"
+     "starts": 2772,
+     "wins": 273,
+     "win_rate": 9.8,
+     "turf_starts": 1482,
+     "turf_wins": 155,
+     "turf_win_rate": 10.5,
+     "dirt_starts": 1273,
+     "dirt_wins": 118,
+     "winner_rate": "39.5%",
+     "avg_dist_turf": "1801.3"
     },
     "year": {
-     "starts": 417,
-     "wins": 40,
-     "win_rate": 9.6,
-     "turf_starts": 284,
-     "turf_wins": 31,
-     "turf_win_rate": 10.9,
-     "dirt_starts": 133,
-     "dirt_wins": 9,
-     "winner_rate": "21.2%",
-     "avg_dist_turf": "1722.6"
-    }
-   },
-   "jockey_stats": {
-    "total": {
-     "starts": 4945,
-     "win1": 324,
-     "win2": 306,
-     "win3": 319,
-     "win_rate": "6.6%",
-     "quinella_rate": "12.7%",
-     "show_rate": "19.2%",
-     "turf_starts": 2546,
-     "turf_wins": 164,
-     "dirt_starts": 2399,
-     "dirt_wins": 160
-    },
-    "year": {
-     "starts": 309,
-     "win1": 36,
-     "win2": 39,
-     "win3": 25,
-     "win_rate": "11.7%",
-     "quinella_rate": "24.3%",
-     "show_rate": "32.4%",
-     "turf_starts": 155,
-     "turf_wins": 15,
-     "dirt_starts": 154,
-     "dirt_wins": 21
-    }
-   },
-   "trainer_stats": {
-    "total": {
-     "starts": 3378,
-     "win1": 263,
-     "win2": 252,
-     "win3": 249,
-     "win_rate": "7.8%",
-     "quinella_rate": "15.2%",
-     "show_rate": "22.6%",
-     "turf_starts": 1418,
-     "turf_wins": 102,
-     "dirt_starts": 1879,
-     "dirt_wins": 156
-    },
-    "year": {
-     "starts": 116,
-     "win1": 6,
-     "win2": 5,
-     "win3": 8,
-     "win_rate": "5.2%",
-     "quinella_rate": "9.5%",
-     "show_rate": "16.4%",
-     "turf_starts": 55,
-     "turf_wins": 4,
-     "dirt_starts": 56,
-     "dirt_wins": 2
-    }
-   },
-   "record": {
-    "career": {
-     "starts": 12,
-     "win1": 4,
-     "win2": 0,
-     "win3": 4,
-     "win_rate": 33.3,
-     "quinella_rate": 33.3,
-     "show_rate": 66.7
-    },
-    "same_track": {
-     "starts": 12,
-     "win1": 4,
-     "win2": 0,
-     "win3": 4,
-     "win_rate": 33.3,
-     "quinella_rate": 33.3,
-     "show_rate": 66.7
-    },
-    "venue": {
-     "starts": 6,
-     "win1": 2,
-     "win2": 0,
-     "win3": 2,
-     "win_rate": 33.3,
-     "quinella_rate": 33.3,
-     "show_rate": 66.7
-    },
-    "exact_course": {
-     "starts": 1,
-     "win1": 0,
-     "win2": 0,
-     "win3": 1,
-     "win_rate": 0.0,
-     "quinella_rate": 0.0,
-     "show_rate": 100.0
-    },
-    "dist_band": {
-     "starts": 12,
-     "win1": 4,
-     "win2": 0,
-     "win3": 4,
-     "win_rate": 33.3,
-     "quinella_rate": 33.3,
-     "show_rate": 66.7
-    }
-   },
-   "recent": [
-    {
-     "date": "2026/05/17",
-     "race": "弥彦S(3勝クラス)",
-     "venue": "新潟",
-     "track": "芝",
-     "dist": 1800,
-     "finish": 1
-    },
-    {
-     "date": "2026/03/22",
-     "race": "スピカS(3勝クラス)",
-     "venue": "中山",
-     "track": "芝",
-     "dist": 1800,
-     "finish": 5
-    },
-    {
-     "date": "2025/11/08",
-     "race": "3歳以上2勝クラス",
-     "venue": "東京",
-     "track": "芝",
-     "dist": 2000,
-     "finish": 1
-    },
-    {
-     "date": "2025/09/07",
-     "race": "紫苑S(GII)",
-     "venue": "中山",
-     "track": "芝",
-     "dist": 2000,
-     "finish": 5
-    },
-    {
-     "date": "2025/08/16",
-     "race": "中郷特別(1勝クラス)",
-     "venue": "新潟",
-     "track": "芝",
-     "dist": 1800,
-     "finish": 1
-    }
-   ],
-   "ratings": {
-    "ability": {
-     "grade": "S",
-     "low_data": false
-    },
-    "distance": {
-     "grade": "S",
-     "low_data": false
-    },
-    "stage": {
-     "grade": "A",
-     "low_data": true
-    },
-    "going": {
-     "grade": "S",
-     "low_data": false
-    }
-   }
-  },
-  {
-   "waku": 3,
-   "umaban": 6,
-   "horse_id": "2022104764",
-   "name": "ヴァルキリーバース",
-   "sex_age": "牝4",
-   "weight_carry": "55.5",
-   "jockey_id": "05339",
-   "jockey": "ルメール",
-   "trainer_id": "01162",
-   "trainer": "田中博",
-   "sire_id": "2010104155",
-   "sire": "エピファネイア",
-   "sire_stats": {
-    "total": {
-     "starts": 7608,
-     "wins": 660,
-     "win_rate": 8.7,
-     "turf_starts": 5738,
-     "turf_wins": 555,
-     "turf_win_rate": 9.7,
-     "dirt_starts": 1756,
-     "dirt_wins": 94,
-     "winner_rate": "41.6%",
-     "avg_dist_turf": "1813.2"
-    },
-    "year": {
-     "starts": 545,
-     "wins": 51,
-     "win_rate": 9.4,
-     "turf_starts": 420,
-     "turf_wins": 43,
-     "turf_win_rate": 10.2,
-     "dirt_starts": 110,
-     "dirt_wins": 5,
-     "winner_rate": "22.8%",
-     "avg_dist_turf": "1879.1"
-    }
-   },
-   "jockey_stats": {
-    "total": {
-     "starts": 9787,
-     "win1": 2202,
-     "win2": 1574,
-     "win3": 1151,
-     "win_rate": "22.5%",
-     "quinella_rate": "38.6%",
-     "show_rate": "50.3%",
-     "turf_starts": 5771,
-     "turf_wins": 1373,
-     "dirt_starts": 4016,
-     "dirt_wins": 829
-    },
-    "year": {
-     "starts": 306,
-     "win1": 88,
-     "win2": 54,
-     "win3": 43,
-     "win_rate": "28.8%",
-     "quinella_rate": "46.4%",
-     "show_rate": "60.5%",
-     "turf_starts": 177,
-     "turf_wins": 54,
-     "dirt_starts": 129,
-     "dirt_wins": 34
-    }
-   },
-   "trainer_stats": {
-    "total": {
-     "starts": 1728,
-     "win1": 244,
-     "win2": 186,
-     "win3": 168,
-     "win_rate": "14.1%",
-     "quinella_rate": "24.9%",
-     "show_rate": "34.6%",
-     "turf_starts": 811,
-     "turf_wins": 95,
-     "dirt_starts": 882,
-     "dirt_wins": 142
-    },
-    "year": {
-     "starts": 97,
-     "win1": 15,
-     "win2": 11,
-     "win3": 17,
-     "win_rate": "15.5%",
-     "quinella_rate": "26.8%",
-     "show_rate": "44.3%",
-     "turf_starts": 64,
+     "starts": 411,
+     "wins": 23,
+     "win_rate": 5.6,
+     "turf_starts": 205,
      "turf_wins": 11,
-     "dirt_starts": 33,
+     "turf_win_rate": 5.4,
+     "dirt_starts": 201,
+     "dirt_wins": 12,
+     "winner_rate": "15.2%",
+     "avg_dist_turf": "1945.5"
+    }
+   },
+   "jockey_stats": {
+    "total": {
+     "starts": 11758,
+     "win1": 1259,
+     "win2": 1210,
+     "win3": 1099,
+     "win_rate": "10.7%",
+     "quinella_rate": "21.0%",
+     "show_rate": "30.3%",
+     "turf_starts": 6440,
+     "turf_wins": 686,
+     "dirt_starts": 5318,
+     "dirt_wins": 573
+    },
+    "year": {
+     "starts": 197,
+     "win1": 18,
+     "win2": 16,
+     "win3": 15,
+     "win_rate": "9.1%",
+     "quinella_rate": "17.3%",
+     "show_rate": "24.9%",
+     "turf_starts": 108,
+     "turf_wins": 8,
+     "dirt_starts": 89,
+     "dirt_wins": 10
+    }
+   },
+   "trainer_stats": {
+    "total": {
+     "starts": 3624,
+     "win1": 296,
+     "win2": 271,
+     "win3": 275,
+     "win_rate": "8.2%",
+     "quinella_rate": "15.6%",
+     "show_rate": "23.2%",
+     "turf_starts": 1990,
+     "turf_wins": 171,
+     "dirt_starts": 1590,
+     "dirt_wins": 122
+    },
+    "year": {
+     "starts": 94,
+     "win1": 9,
+     "win2": 3,
+     "win3": 3,
+     "win_rate": "9.6%",
+     "quinella_rate": "12.8%",
+     "show_rate": "16.0%",
+     "turf_starts": 55,
+     "turf_wins": 5,
+     "dirt_starts": 37,
      "dirt_wins": 4
     }
    },
    "record": {
     "career": {
-     "starts": 5,
-     "win1": 3,
-     "win2": 1,
-     "win3": 0,
-     "win_rate": 60.0,
-     "quinella_rate": 80.0,
-     "show_rate": 80.0
+     "starts": 10,
+     "win1": 4,
+     "win2": 0,
+     "win3": 2,
+     "win_rate": 40.0,
+     "quinella_rate": 40.0,
+     "show_rate": 60.0
     },
     "same_track": {
-     "starts": 5,
-     "win1": 3,
-     "win2": 1,
-     "win3": 0,
-     "win_rate": 60.0,
-     "quinella_rate": 80.0,
-     "show_rate": 80.0
+     "starts": 10,
+     "win1": 4,
+     "win2": 0,
+     "win3": 2,
+     "win_rate": 40.0,
+     "quinella_rate": 40.0,
+     "show_rate": 60.0
     },
     "venue": {
-     "starts": 3,
+     "starts": 2,
      "win1": 1,
-     "win2": 1,
+     "win2": 0,
      "win3": 0,
-     "win_rate": 33.3,
-     "quinella_rate": 66.7,
-     "show_rate": 66.7
+     "win_rate": 50.0,
+     "quinella_rate": 50.0,
+     "show_rate": 50.0
     },
     "exact_course": {
      "starts": 0,
@@ -1157,54 +929,54 @@
      "show_rate": null
     },
     "dist_band": {
-     "starts": 5,
-     "win1": 3,
-     "win2": 1,
-     "win3": 0,
-     "win_rate": 60.0,
-     "quinella_rate": 80.0,
-     "show_rate": 80.0
+     "starts": 9,
+     "win1": 4,
+     "win2": 0,
+     "win3": 2,
+     "win_rate": 44.4,
+     "quinella_rate": 44.4,
+     "show_rate": 66.7
     }
    },
    "recent": [
     {
-     "date": "2026/03/15",
-     "race": "東風S(L)",
+     "date": "2026/04/26",
+     "race": "センテニアルパークS(3勝クラス)",
+     "venue": "京都",
+     "track": "芝",
+     "dist": 1800,
+     "finish": 1
+    },
+    {
+     "date": "2026/01/25",
+     "race": "壇之浦S(3勝クラス)",
+     "venue": "小倉",
+     "track": "芝",
+     "dist": 1800,
+     "finish": 5
+    },
+    {
+     "date": "2025/12/14",
+     "race": "霞ヶ浦特別(2勝クラス)",
      "venue": "中山",
      "track": "芝",
-     "dist": 1600,
+     "dist": 1800,
      "finish": 1
     },
     {
-     "date": "2025/04/27",
-     "race": "サンスポ賞フローラS(GII)",
-     "venue": "東京",
-     "track": "芝",
-     "dist": 2000,
-     "finish": 2
-    },
-    {
-     "date": "2025/02/22",
-     "race": "フリージア賞(1勝クラス)",
-     "venue": "東京",
+     "date": "2025/11/24",
+     "race": "3歳以上1勝クラス",
+     "venue": "福島",
      "track": "芝",
      "dist": 2000,
      "finish": 1
     },
     {
-     "date": "2024/09/01",
-     "race": "2歳未勝利",
-     "venue": "新潟",
+     "date": "2025/10/25",
+     "race": "3歳以上1勝クラス",
+     "venue": "京都",
      "track": "芝",
-     "dist": 2000,
-     "finish": 1
-    },
-    {
-     "date": "2024/06/23",
-     "race": "2歳新馬",
-     "venue": "東京",
-     "track": "芝",
-     "dist": 1600,
+     "dist": 1800,
      "finish": 4
     }
    ],
@@ -1218,8 +990,8 @@
      "low_data": false
     },
     "stage": {
-     "grade": "S",
-     "low_data": false
+     "grade": "A",
+     "low_data": true
     },
     "going": {
      "grade": "S",
@@ -1229,166 +1001,191 @@
   },
   {
    "waku": 4,
-   "umaban": 7,
-   "horse_id": "2021103975",
-   "name": "セキトバイースト",
-   "sex_age": "牝5",
-   "weight_carry": "56.0",
-   "jockey_id": "01115",
-   "jockey": "浜中",
-   "trainer_id": "01184",
-   "trainer": "四位",
-   "sire_id": "000a0136f6",
-   "sire": "デクラレーションオブウォー",
-   "sire_stats": null,
-   "jockey_stats": {
+   "umaban": 6,
+   "horse_id": "2019101422",
+   "name": "サンストックトン",
+   "sex_age": "牡7",
+   "weight_carry": "54.0",
+   "jockey_id": "01191",
+   "jockey": "松本",
+   "trainer_id": "01189",
+   "trainer": "堀内",
+   "sire_id": "2009106353",
+   "sire": "ワールドエース",
+   "sire_stats": {
     "total": {
-     "starts": 11752,
-     "win1": 1256,
-     "win2": 1210,
-     "win3": 1098,
-     "win_rate": "10.7%",
-     "quinella_rate": "21.0%",
-     "show_rate": "30.3%",
-     "turf_starts": 6437,
-     "turf_wins": 684,
-     "dirt_starts": 5315,
-     "dirt_wins": 572
+     "starts": 2167,
+     "wins": 85,
+     "win_rate": 3.9,
+     "turf_starts": 1140,
+     "turf_wins": 53,
+     "turf_win_rate": 4.6,
+     "dirt_starts": 967,
+     "dirt_wins": 28,
+     "winner_rate": "18.3%",
+     "avg_dist_turf": "1722.6"
     },
     "year": {
-     "starts": 191,
-     "win1": 15,
-     "win2": 16,
-     "win3": 14,
-     "win_rate": "7.9%",
-     "quinella_rate": "16.2%",
-     "show_rate": "23.6%",
-     "turf_starts": 105,
-     "turf_wins": 6,
-     "dirt_starts": 86,
-     "dirt_wins": 9
+     "starts": 66,
+     "wins": 2,
+     "win_rate": 3.0,
+     "turf_starts": 35,
+     "turf_wins": 1,
+     "turf_win_rate": 2.9,
+     "dirt_starts": 25,
+     "dirt_wins": 1,
+     "winner_rate": "8.7%",
+     "avg_dist_turf": "1400.0"
+    }
+   },
+   "jockey_stats": {
+    "total": {
+     "starts": 1919,
+     "win1": 98,
+     "win2": 88,
+     "win3": 100,
+     "win_rate": "5.1%",
+     "quinella_rate": "9.7%",
+     "show_rate": "14.9%",
+     "turf_starts": 888,
+     "turf_wins": 42,
+     "dirt_starts": 1031,
+     "dirt_wins": 56
+    },
+    "year": {
+     "starts": 167,
+     "win1": 7,
+     "win2": 7,
+     "win3": 8,
+     "win_rate": "4.2%",
+     "quinella_rate": "8.4%",
+     "show_rate": "13.2%",
+     "turf_starts": 92,
+     "turf_wins": 4,
+     "dirt_starts": 75,
+     "dirt_wins": 3
     }
    },
    "trainer_stats": {
     "total": {
-     "starts": 1199,
-     "win1": 121,
-     "win2": 129,
-     "win3": 102,
-     "win_rate": "10.1%",
-     "quinella_rate": "20.9%",
-     "show_rate": "29.4%",
-     "turf_starts": 661,
-     "turf_wins": 61,
-     "dirt_starts": 508,
-     "dirt_wins": 57
+     "starts": 1066,
+     "win1": 30,
+     "win2": 48,
+     "win3": 66,
+     "win_rate": "2.8%",
+     "quinella_rate": "7.3%",
+     "show_rate": "13.5%",
+     "turf_starts": 391,
+     "turf_wins": 12,
+     "dirt_starts": 613,
+     "dirt_wins": 14
     },
     "year": {
-     "starts": 116,
-     "win1": 10,
-     "win2": 15,
-     "win3": 9,
-     "win_rate": "8.6%",
-     "quinella_rate": "21.6%",
-     "show_rate": "29.3%",
-     "turf_starts": 63,
-     "turf_wins": 4,
-     "dirt_starts": 52,
-     "dirt_wins": 6
+     "starts": 135,
+     "win1": 4,
+     "win2": 10,
+     "win3": 8,
+     "win_rate": "3.0%",
+     "quinella_rate": "10.4%",
+     "show_rate": "16.3%",
+     "turf_starts": 65,
+     "turf_wins": 1,
+     "dirt_starts": 61,
+     "dirt_wins": 2
     }
    },
    "record": {
     "career": {
-     "starts": 18,
+     "starts": 29,
      "win1": 4,
-     "win2": 4,
+     "win2": 6,
      "win3": 1,
-     "win_rate": 22.2,
-     "quinella_rate": 44.4,
-     "show_rate": 50.0
+     "win_rate": 13.8,
+     "quinella_rate": 34.5,
+     "show_rate": 37.9
     },
     "same_track": {
-     "starts": 18,
+     "starts": 28,
      "win1": 4,
-     "win2": 4,
+     "win2": 6,
      "win3": 1,
-     "win_rate": 22.2,
-     "quinella_rate": 44.4,
-     "show_rate": 50.0
+     "win_rate": 14.3,
+     "quinella_rate": 35.7,
+     "show_rate": 39.3
     },
     "venue": {
-     "starts": 3,
-     "win1": 1,
-     "win2": 0,
+     "starts": 4,
+     "win1": 0,
+     "win2": 1,
      "win3": 0,
-     "win_rate": 33.3,
-     "quinella_rate": 33.3,
-     "show_rate": 33.3
+     "win_rate": 0.0,
+     "quinella_rate": 25.0,
+     "show_rate": 25.0
     },
     "exact_course": {
      "starts": 2,
-     "win1": 1,
+     "win1": 0,
      "win2": 0,
      "win3": 0,
-     "win_rate": 50.0,
-     "quinella_rate": 50.0,
-     "show_rate": 50.0
+     "win_rate": 0.0,
+     "quinella_rate": 0.0,
+     "show_rate": 0.0
     },
     "dist_band": {
-     "starts": 15,
-     "win1": 4,
-     "win2": 2,
+     "starts": 26,
+     "win1": 3,
+     "win2": 6,
      "win3": 1,
-     "win_rate": 26.7,
-     "quinella_rate": 40.0,
-     "show_rate": 46.7
+     "win_rate": 11.5,
+     "quinella_rate": 34.6,
+     "show_rate": 38.5
     }
    },
    "recent": [
     {
-     "date": "2026/05/16",
-     "race": "新潟大賞典(GIII)",
-     "venue": "新潟",
+     "date": "2026/04/05",
+     "race": "大阪杯(GI)",
+     "venue": "阪神",
      "track": "芝",
      "dist": 2000,
+     "finish": 12
+    },
+    {
+     "date": "2026/03/01",
+     "race": "中山記念(GII)",
+     "venue": "中山",
+     "track": "芝",
+     "dist": 1800,
+     "finish": 9
+    },
+    {
+     "date": "2026/01/25",
+     "race": "アメリカジョッキーC(GII)",
+     "venue": "中山",
+     "track": "芝",
+     "dist": 2200,
+     "finish": 5
+    },
+    {
+     "date": "2025/12/06",
+     "race": "鳴尾記念(GIII)",
+     "venue": "阪神",
+     "track": "芝",
+     "dist": 1800,
      "finish": 7
     },
     {
-     "date": "2026/03/15",
-     "race": "東海テレビ杯金鯱賞(GII)",
-     "venue": "中京",
-     "track": "芝",
-     "dist": 2000,
+     "date": "2025/10/19",
+     "race": "ブラジルC(L)",
+     "venue": "東京",
+     "track": "ダ",
+     "dist": 2100,
      "finish": 11
-    },
-    {
-     "date": "2025/11/16",
-     "race": "エリザベス女王杯(GI)",
-     "venue": "京都",
-     "track": "芝",
-     "dist": 2200,
-     "finish": 6
-    },
-    {
-     "date": "2025/10/12",
-     "race": "アイルランドT(GII)",
-     "venue": "東京",
-     "track": "芝",
-     "dist": 1800,
-     "finish": 10
-    },
-    {
-     "date": "2025/06/22",
-     "race": "府中牝馬S(GIII)",
-     "venue": "東京",
-     "track": "芝",
-     "dist": 1800,
-     "finish": 1
     }
    ],
    "ratings": {
     "ability": {
-     "grade": "B",
+     "grade": "C",
      "low_data": false
     },
     "distance": {
@@ -1396,7 +1193,7 @@
      "low_data": false
     },
     "stage": {
-     "grade": "A",
+     "grade": "C",
      "low_data": true
     },
     "going": {
@@ -1407,191 +1204,191 @@
   },
   {
    "waku": 4,
-   "umaban": 8,
-   "horse_id": "2021100244",
-   "name": "ニシノティアモ",
-   "sex_age": "牝5",
-   "weight_carry": "56.0",
-   "jockey_id": "01092",
-   "jockey": "津村",
-   "trainer_id": "01192",
-   "trainer": "上原佑",
-   "sire_id": "2012104511",
-   "sire": "ドゥラメンテ",
+   "umaban": 7,
+   "horse_id": "2018104609",
+   "name": "チャックネイト",
+   "sex_age": "セ8",
+   "weight_carry": "58.0",
+   "jockey_id": "01157",
+   "jockey": "鮫島駿",
+   "trainer_id": "01070",
+   "trainer": "堀",
+   "sire_id": "2001103038",
+   "sire": "ハーツクライ",
    "sire_stats": {
     "total": {
-     "starts": 5770,
-     "wins": 576,
-     "win_rate": 10.0,
-     "turf_starts": 3638,
-     "turf_wins": 368,
-     "turf_win_rate": 10.1,
-     "dirt_starts": 2062,
-     "dirt_wins": 198,
-     "winner_rate": "42.3%",
-     "avg_dist_turf": "1890.8"
+     "starts": 18222,
+     "wins": 1604,
+     "win_rate": 8.8,
+     "turf_starts": 12371,
+     "turf_wins": 1117,
+     "turf_win_rate": 9.0,
+     "dirt_starts": 5279,
+     "dirt_wins": 434,
+     "winner_rate": "47.5%",
+     "avg_dist_turf": "1882.1"
     },
     "year": {
-     "starts": 238,
-     "wins": 20,
-     "win_rate": 8.4,
-     "turf_starts": 149,
-     "turf_wins": 12,
-     "turf_win_rate": 8.1,
-     "dirt_starts": 80,
-     "dirt_wins": 6,
-     "winner_rate": "20.9%",
-     "avg_dist_turf": "2150.0"
+     "starts": 134,
+     "wins": 5,
+     "win_rate": 3.7,
+     "turf_starts": 79,
+     "turf_wins": 2,
+     "turf_win_rate": 2.5,
+     "dirt_starts": 31,
+     "dirt_wins": 1,
+     "winner_rate": "10.2%",
+     "avg_dist_turf": "2000.0"
     }
    },
    "jockey_stats": {
     "total": {
-     "starts": 12555,
-     "win1": 761,
-     "win2": 904,
-     "win3": 943,
-     "win_rate": "6.1%",
-     "quinella_rate": "13.3%",
-     "show_rate": "20.8%",
-     "turf_starts": 6564,
-     "turf_wins": 414,
-     "dirt_starts": 5991,
-     "dirt_wins": 347
+     "starts": 8083,
+     "win1": 629,
+     "win2": 681,
+     "win3": 678,
+     "win_rate": "7.8%",
+     "quinella_rate": "16.2%",
+     "show_rate": "24.6%",
+     "turf_starts": 4067,
+     "turf_wins": 306,
+     "dirt_starts": 4016,
+     "dirt_wins": 323
     },
     "year": {
-     "starts": 313,
+     "starts": 350,
      "win1": 32,
-     "win2": 31,
-     "win3": 29,
-     "win_rate": "10.2%",
-     "quinella_rate": "20.1%",
-     "show_rate": "29.4%",
-     "turf_starts": 174,
-     "turf_wins": 27,
-     "dirt_starts": 139,
-     "dirt_wins": 5
+     "win2": 30,
+     "win3": 30,
+     "win_rate": "9.1%",
+     "quinella_rate": "17.7%",
+     "show_rate": "26.3%",
+     "turf_starts": 163,
+     "turf_wins": 15,
+     "dirt_starts": 187,
+     "dirt_wins": 17
     }
    },
    "trainer_stats": {
     "total": {
-     "starts": 747,
-     "win1": 85,
-     "win2": 82,
-     "win3": 69,
-     "win_rate": "11.4%",
-     "quinella_rate": "22.4%",
-     "show_rate": "31.6%",
-     "turf_starts": 454,
-     "turf_wins": 53,
-     "dirt_starts": 293,
-     "dirt_wins": 32
+     "starts": 5217,
+     "win1": 852,
+     "win2": 564,
+     "win3": 493,
+     "win_rate": "16.3%",
+     "quinella_rate": "27.1%",
+     "show_rate": "36.6%",
+     "turf_starts": 3724,
+     "turf_wins": 610,
+     "dirt_starts": 1493,
+     "dirt_wins": 242
     },
     "year": {
-     "starts": 112,
-     "win1": 16,
-     "win2": 8,
-     "win3": 16,
-     "win_rate": "14.3%",
-     "quinella_rate": "21.4%",
-     "show_rate": "35.7%",
-     "turf_starts": 66,
+     "starts": 100,
+     "win1": 15,
+     "win2": 16,
+     "win3": 9,
+     "win_rate": "15.0%",
+     "quinella_rate": "31.0%",
+     "show_rate": "40.0%",
+     "turf_starts": 68,
      "turf_wins": 10,
-     "dirt_starts": 46,
-     "dirt_wins": 6
+     "dirt_starts": 32,
+     "dirt_wins": 5
     }
    },
    "record": {
     "career": {
-     "starts": 14,
+     "starts": 24,
      "win1": 5,
-     "win2": 3,
-     "win3": 0,
-     "win_rate": 35.7,
-     "quinella_rate": 57.1,
-     "show_rate": 57.1
+     "win2": 2,
+     "win3": 7,
+     "win_rate": 20.8,
+     "quinella_rate": 29.2,
+     "show_rate": 58.3
     },
     "same_track": {
-     "starts": 14,
+     "starts": 24,
      "win1": 5,
-     "win2": 3,
-     "win3": 0,
-     "win_rate": 35.7,
-     "quinella_rate": 57.1,
-     "show_rate": 57.1
+     "win2": 2,
+     "win3": 7,
+     "win_rate": 20.8,
+     "quinella_rate": 29.2,
+     "show_rate": 58.3
     },
     "venue": {
-     "starts": 8,
-     "win1": 3,
-     "win2": 1,
+     "starts": 2,
+     "win1": 1,
+     "win2": 0,
      "win3": 0,
-     "win_rate": 37.5,
+     "win_rate": 50.0,
      "quinella_rate": 50.0,
      "show_rate": 50.0
     },
     "exact_course": {
-     "starts": 5,
-     "win1": 2,
-     "win2": 1,
+     "starts": 1,
+     "win1": 0,
+     "win2": 0,
      "win3": 0,
-     "win_rate": 40.0,
-     "quinella_rate": 60.0,
-     "show_rate": 60.0
+     "win_rate": 0.0,
+     "quinella_rate": 0.0,
+     "show_rate": 0.0
     },
     "dist_band": {
-     "starts": 14,
-     "win1": 5,
-     "win2": 3,
-     "win3": 0,
-     "win_rate": 35.7,
-     "quinella_rate": 57.1,
-     "show_rate": 57.1
+     "starts": 13,
+     "win1": 3,
+     "win2": 1,
+     "win3": 4,
+     "win_rate": 23.1,
+     "quinella_rate": 30.8,
+     "show_rate": 61.5
     }
    },
    "recent": [
     {
-     "date": "2026/05/17",
-     "race": "ヴィクトリアマイル(GI)",
-     "venue": "東京",
-     "track": "芝",
-     "dist": 1600,
-     "finish": 6
-    },
-    {
-     "date": "2026/03/07",
-     "race": "中山牝馬S(GIII)",
+     "date": "2026/03/28",
+     "race": "日経賞(GII)",
      "venue": "中山",
      "track": "芝",
-     "dist": 1800,
+     "dist": 2500,
+     "finish": 8
+    },
+    {
+     "date": "2026/01/25",
+     "race": "アメリカジョッキーC(GII)",
+     "venue": "中山",
+     "track": "芝",
+     "dist": 2200,
+     "finish": 13
+    },
+    {
+     "date": "2025/12/06",
+     "race": "ステイヤーズS(GII)",
+     "venue": "中山",
+     "track": "芝",
+     "dist": 3600,
+     "finish": 7
+    },
+    {
+     "date": "2025/06/15",
+     "race": "宝塚記念(GI)",
+     "venue": "阪神",
+     "track": "芝",
+     "dist": 2200,
      "finish": 5
     },
     {
-     "date": "2025/11/22",
-     "race": "福島記念(GIII)",
-     "venue": "福島",
+     "date": "2025/03/29",
+     "race": "日経賞(GII)",
+     "venue": "中山",
      "track": "芝",
-     "dist": 2000,
-     "finish": 1
-    },
-    {
-     "date": "2025/10/19",
-     "race": "甲斐路S(3勝クラス)",
-     "venue": "東京",
-     "track": "芝",
-     "dist": 1800,
-     "finish": 1
-    },
-    {
-     "date": "2025/07/06",
-     "race": "白河特別(2勝クラス)",
-     "venue": "福島",
-     "track": "芝",
-     "dist": 1800,
-     "finish": 1
+     "dist": 2500,
+     "finish": 2
     }
    ],
    "ratings": {
     "ability": {
-     "grade": "A",
+     "grade": "B",
      "low_data": false
     },
     "distance": {
@@ -1599,8 +1396,211 @@
      "low_data": false
     },
     "stage": {
+     "grade": "C",
+     "low_data": true
+    },
+    "going": {
      "grade": "S",
      "low_data": false
+    }
+   }
+  },
+  {
+   "waku": 5,
+   "umaban": 8,
+   "horse_id": "2019100318",
+   "name": "ケイアイセナ",
+   "sex_age": "牡7",
+   "weight_carry": "57.5",
+   "jockey_id": "00666",
+   "jockey": "武豊",
+   "trainer_id": "01082",
+   "trainer": "平田",
+   "sire_id": "2002100816",
+   "sire": "ディープインパクト",
+   "sire_stats": {
+    "total": {
+     "starts": 22917,
+     "wins": 2809,
+     "win_rate": 12.3,
+     "turf_starts": 19134,
+     "turf_wins": 2474,
+     "turf_win_rate": 12.9,
+     "dirt_starts": 3163,
+     "dirt_wins": 260,
+     "winner_rate": "64.2%",
+     "avg_dist_turf": "1820.1"
+    },
+    "year": {
+     "starts": 72,
+     "wins": 4,
+     "win_rate": 5.6,
+     "turf_starts": 62,
+     "turf_wins": 3,
+     "turf_win_rate": 4.8,
+     "dirt_starts": 6,
+     "dirt_wins": 0,
+     "winner_rate": "14.3%",
+     "avg_dist_turf": "1733.3"
+    }
+   },
+   "jockey_stats": {
+    "total": {
+     "starts": 25758,
+     "win1": 4663,
+     "win2": 3548,
+     "win3": 2881,
+     "win_rate": "18.1%",
+     "quinella_rate": "31.9%",
+     "show_rate": "43.1%",
+     "turf_starts": 14038,
+     "turf_wins": 2499,
+     "dirt_starts": 11720,
+     "dirt_wins": 2164
+    },
+    "year": {
+     "starts": 292,
+     "win1": 38,
+     "win2": 30,
+     "win3": 47,
+     "win_rate": "13.0%",
+     "quinella_rate": "23.3%",
+     "show_rate": "39.4%",
+     "turf_starts": 156,
+     "turf_wins": 17,
+     "dirt_starts": 136,
+     "dirt_wins": 21
+    }
+   },
+   "trainer_stats": {
+    "total": {
+     "starts": 5105,
+     "win1": 432,
+     "win2": 417,
+     "win3": 369,
+     "win_rate": "8.5%",
+     "quinella_rate": "16.6%",
+     "show_rate": "23.9%",
+     "turf_starts": 2549,
+     "turf_wins": 212,
+     "dirt_starts": 2422,
+     "dirt_wins": 210
+    },
+    "year": {
+     "starts": 131,
+     "win1": 3,
+     "win2": 3,
+     "win3": 9,
+     "win_rate": "2.3%",
+     "quinella_rate": "4.6%",
+     "show_rate": "11.5%",
+     "turf_starts": 47,
+     "turf_wins": 0,
+     "dirt_starts": 78,
+     "dirt_wins": 3
+    }
+   },
+   "record": {
+    "career": {
+     "starts": 23,
+     "win1": 5,
+     "win2": 3,
+     "win3": 3,
+     "win_rate": 21.7,
+     "quinella_rate": 34.8,
+     "show_rate": 47.8
+    },
+    "same_track": {
+     "starts": 23,
+     "win1": 5,
+     "win2": 3,
+     "win3": 3,
+     "win_rate": 21.7,
+     "quinella_rate": 34.8,
+     "show_rate": 47.8
+    },
+    "venue": {
+     "starts": 1,
+     "win1": 1,
+     "win2": 0,
+     "win3": 0,
+     "win_rate": 100.0,
+     "quinella_rate": 100.0,
+     "show_rate": 100.0
+    },
+    "exact_course": {
+     "starts": 0,
+     "win1": 0,
+     "win2": 0,
+     "win3": 0,
+     "win_rate": null,
+     "quinella_rate": null,
+     "show_rate": null
+    },
+    "dist_band": {
+     "starts": 20,
+     "win1": 5,
+     "win2": 3,
+     "win3": 3,
+     "win_rate": 25.0,
+     "quinella_rate": 40.0,
+     "show_rate": 55.0
+    }
+   },
+   "recent": [
+    {
+     "date": "2026/04/04",
+     "race": "ダービー卿チャレンジ(GIII)",
+     "venue": "中山",
+     "track": "芝",
+     "dist": 1600,
+     "finish": 10
+    },
+    {
+     "date": "2026/02/22",
+     "race": "小倉大賞典(GIII)",
+     "venue": "小倉",
+     "track": "芝",
+     "dist": 1800,
+     "finish": 2
+    },
+    {
+     "date": "2026/01/04",
+     "race": "日刊スポ賞中山金杯(GIII)",
+     "venue": "中山",
+     "track": "芝",
+     "dist": 2000,
+     "finish": 12
+    },
+    {
+     "date": "2025/08/17",
+     "race": "札幌記念(GII)",
+     "venue": "札幌",
+     "track": "芝",
+     "dist": 2000,
+     "finish": 4
+    },
+    {
+     "date": "2025/07/13",
+     "race": "巴賞(OP)",
+     "venue": "函館",
+     "track": "芝",
+     "dist": 1800,
+     "finish": 1
+    }
+   ],
+   "ratings": {
+    "ability": {
+     "grade": "C",
+     "low_data": false
+    },
+    "distance": {
+     "grade": "S",
+     "low_data": false
+    },
+    "stage": {
+     "grade": "A",
+     "low_data": true
     },
     "going": {
      "grade": "S",
@@ -1611,160 +1611,388 @@
   {
    "waku": 5,
    "umaban": 9,
-   "horse_id": "2022104812",
-   "name": "テリオスララ",
-   "sex_age": "牝4",
+   "horse_id": "2019104756",
+   "name": "オニャンコポン",
+   "sex_age": "セ7",
    "weight_carry": "54.0",
-   "jockey_id": "05675",
-   "jockey": "ゴンサルベ",
-   "trainer_id": "01112",
-   "trainer": "田島",
-   "sire_id": "000a01aa3d",
-   "sire": "シスキン",
-   "sire_stats": null,
-   "jockey_stats": {
+   "jockey_id": "01192",
+   "jockey": "横山琉",
+   "trainer_id": "01068",
+   "trainer": "小島",
+   "sire_id": "2007102951",
+   "sire": "エイシンフラッシュ",
+   "sire_stats": {
     "total": {
-     "starts": 119,
-     "win1": 12,
-     "win2": 10,
-     "win3": 13,
-     "win_rate": "10.1%",
-     "quinella_rate": "18.5%",
-     "show_rate": "29.4%",
-     "turf_starts": 57,
-     "turf_wins": 4,
-     "dirt_starts": 62,
-     "dirt_wins": 8
+     "starts": 4705,
+     "wins": 256,
+     "win_rate": 5.4,
+     "turf_starts": 2800,
+     "turf_wins": 151,
+     "turf_win_rate": 5.4,
+     "dirt_starts": 1658,
+     "dirt_wins": 76,
+     "winner_rate": "26.0%",
+     "avg_dist_turf": "1680.8"
     },
     "year": {
-     "starts": 110,
-     "win1": 11,
-     "win2": 8,
-     "win3": 13,
-     "win_rate": "10.0%",
-     "quinella_rate": "17.3%",
-     "show_rate": "29.1%",
-     "turf_starts": 53,
-     "turf_wins": 4,
-     "dirt_starts": 57,
-     "dirt_wins": 7
+     "starts": 70,
+     "wins": 1,
+     "win_rate": 1.4,
+     "turf_starts": 29,
+     "turf_wins": 0,
+     "turf_win_rate": 0.0,
+     "dirt_starts": 40,
+     "dirt_wins": 1,
+     "winner_rate": "4.0%",
+     "avg_dist_turf": "0.0"
+    }
+   },
+   "jockey_stats": {
+    "total": {
+     "starts": 2365,
+     "win1": 126,
+     "win2": 102,
+     "win3": 125,
+     "win_rate": "5.3%",
+     "quinella_rate": "9.6%",
+     "show_rate": "14.9%",
+     "turf_starts": 1079,
+     "turf_wins": 53,
+     "dirt_starts": 1286,
+     "dirt_wins": 73
+    },
+    "year": {
+     "starts": 276,
+     "win1": 18,
+     "win2": 11,
+     "win3": 16,
+     "win_rate": "6.5%",
+     "quinella_rate": "10.5%",
+     "show_rate": "16.3%",
+     "turf_starts": 150,
+     "turf_wins": 7,
+     "dirt_starts": 126,
+     "dirt_wins": 11
     }
    },
    "trainer_stats": {
     "total": {
-     "starts": 4539,
-     "win1": 239,
-     "win2": 263,
-     "win3": 281,
-     "win_rate": "5.3%",
-     "quinella_rate": "11.1%",
-     "show_rate": "17.3%",
-     "turf_starts": 1584,
-     "turf_wins": 79,
-     "dirt_starts": 2841,
-     "dirt_wins": 154
+     "starts": 5252,
+     "win1": 378,
+     "win2": 385,
+     "win3": 332,
+     "win_rate": "7.2%",
+     "quinella_rate": "14.5%",
+     "show_rate": "20.8%",
+     "turf_starts": 2680,
+     "turf_wins": 192,
+     "dirt_starts": 2421,
+     "dirt_wins": 175
     },
     "year": {
-     "starts": 132,
-     "win1": 11,
-     "win2": 9,
-     "win3": 6,
-     "win_rate": "8.3%",
-     "quinella_rate": "15.2%",
-     "show_rate": "19.7%",
-     "turf_starts": 45,
-     "turf_wins": 6,
-     "dirt_starts": 78,
+     "starts": 92,
+     "win1": 4,
+     "win2": 5,
+     "win3": 2,
+     "win_rate": "4.3%",
+     "quinella_rate": "9.8%",
+     "show_rate": "12.0%",
+     "turf_starts": 44,
+     "turf_wins": 0,
+     "dirt_starts": 41,
      "dirt_wins": 4
     }
    },
    "record": {
     "career": {
-     "starts": 9,
+     "starts": 30,
      "win1": 3,
-     "win2": 1,
+     "win2": 2,
      "win3": 1,
-     "win_rate": 33.3,
-     "quinella_rate": 44.4,
-     "show_rate": 55.6
+     "win_rate": 10.0,
+     "quinella_rate": 16.7,
+     "show_rate": 20.0
     },
     "same_track": {
-     "starts": 9,
+     "starts": 30,
      "win1": 3,
-     "win2": 1,
+     "win2": 2,
      "win3": 1,
-     "win_rate": 33.3,
-     "quinella_rate": 44.4,
-     "show_rate": 55.6
+     "win_rate": 10.0,
+     "quinella_rate": 16.7,
+     "show_rate": 20.0
     },
     "venue": {
      "starts": 2,
-     "win1": 1,
+     "win1": 0,
      "win2": 0,
      "win3": 0,
-     "win_rate": 50.0,
-     "quinella_rate": 50.0,
-     "show_rate": 50.0
+     "win_rate": 0.0,
+     "quinella_rate": 0.0,
+     "show_rate": 0.0
     },
     "exact_course": {
-     "starts": 2,
-     "win1": 1,
+     "starts": 1,
+     "win1": 0,
      "win2": 0,
      "win3": 0,
-     "win_rate": 50.0,
-     "quinella_rate": 50.0,
-     "show_rate": 50.0
+     "win_rate": 0.0,
+     "quinella_rate": 0.0,
+     "show_rate": 0.0
     },
     "dist_band": {
-     "starts": 9,
+     "starts": 19,
      "win1": 3,
      "win2": 1,
      "win3": 1,
-     "win_rate": 33.3,
-     "quinella_rate": 44.4,
-     "show_rate": 55.6
+     "win_rate": 15.8,
+     "quinella_rate": 21.1,
+     "show_rate": 26.3
     }
    },
    "recent": [
     {
-     "date": "2026/03/08",
-     "race": "大阪城S(L)",
-     "venue": "阪神",
-     "track": "芝",
-     "dist": 1800,
-     "finish": 10
-    },
-    {
-     "date": "2026/02/10",
-     "race": "初音S(3勝クラス)",
+     "date": "2026/05/09",
+     "race": "エプソムC(GIII)",
      "venue": "東京",
      "track": "芝",
      "dist": 1800,
-     "finish": 1
+     "finish": 15
+    },
+    {
+     "date": "2026/03/29",
+     "race": "六甲S(L)",
+     "venue": "阪神",
+     "track": "芝",
+     "dist": 1600,
+     "finish": 11
+    },
+    {
+     "date": "2026/03/01",
+     "race": "中山記念(GII)",
+     "venue": "中山",
+     "track": "芝",
+     "dist": 1800,
+     "finish": 11
+    },
+    {
+     "date": "2026/01/12",
+     "race": "ニューイヤーS(L)",
+     "venue": "中山",
+     "track": "芝",
+     "dist": 1600,
+     "finish": 8
+    },
+    {
+     "date": "2025/12/13",
+     "race": "中日新聞杯(GIII)",
+     "venue": "中京",
+     "track": "芝",
+     "dist": 2000,
+     "finish": 10
+    }
+   ],
+   "ratings": {
+    "ability": {
+     "grade": "B",
+     "low_data": false
+    },
+    "distance": {
+     "grade": "B",
+     "low_data": false
+    },
+    "stage": {
+     "grade": "C",
+     "low_data": true
+    },
+    "going": {
+     "grade": "B",
+     "low_data": false
+    }
+   }
+  },
+  {
+   "waku": 6,
+   "umaban": 10,
+   "horse_id": "2022102296",
+   "name": "ケリフレッドアスク",
+   "sex_age": "牝4",
+   "weight_carry": "55.0",
+   "jockey_id": "01102",
+   "jockey": "北村友",
+   "trainer_id": "01055",
+   "trainer": "藤原",
+   "sire_id": "2012104511",
+   "sire": "ドゥラメンテ",
+   "sire_stats": {
+    "total": {
+     "starts": 5778,
+     "wins": 576,
+     "win_rate": 10.0,
+     "turf_starts": 3645,
+     "turf_wins": 368,
+     "turf_win_rate": 10.1,
+     "dirt_starts": 2063,
+     "dirt_wins": 198,
+     "winner_rate": "42.3%",
+     "avg_dist_turf": "1890.8"
+    },
+    "year": {
+     "starts": 246,
+     "wins": 20,
+     "win_rate": 8.1,
+     "turf_starts": 156,
+     "turf_wins": 12,
+     "turf_win_rate": 7.7,
+     "dirt_starts": 81,
+     "dirt_wins": 6,
+     "winner_rate": "20.9%",
+     "avg_dist_turf": "2150.0"
+    }
+   },
+   "jockey_stats": {
+    "total": {
+     "starts": 11586,
+     "win1": 1019,
+     "win2": 997,
+     "win3": 971,
+     "win_rate": "8.8%",
+     "quinella_rate": "17.4%",
+     "show_rate": "25.8%",
+     "turf_starts": 6329,
+     "turf_wins": 575,
+     "dirt_starts": 5257,
+     "dirt_wins": 444
+    },
+    "year": {
+     "starts": 307,
+     "win1": 27,
+     "win2": 37,
+     "win3": 22,
+     "win_rate": "8.8%",
+     "quinella_rate": "20.8%",
+     "show_rate": "28.0%",
+     "turf_starts": 164,
+     "turf_wins": 20,
+     "dirt_starts": 143,
+     "dirt_wins": 7
+    }
+   },
+   "trainer_stats": {
+    "total": {
+     "starts": 6525,
+     "win1": 960,
+     "win2": 740,
+     "win3": 630,
+     "win_rate": "14.7%",
+     "quinella_rate": "26.1%",
+     "show_rate": "35.7%",
+     "turf_starts": 4170,
+     "turf_wins": 592,
+     "dirt_starts": 2291,
+     "dirt_wins": 357
+    },
+    "year": {
+     "starts": 173,
+     "win1": 24,
+     "win2": 16,
+     "win3": 18,
+     "win_rate": "13.9%",
+     "quinella_rate": "23.1%",
+     "show_rate": "33.5%",
+     "turf_starts": 114,
+     "turf_wins": 14,
+     "dirt_starts": 58,
+     "dirt_wins": 10
+    }
+   },
+   "record": {
+    "career": {
+     "starts": 15,
+     "win1": 2,
+     "win2": 1,
+     "win3": 3,
+     "win_rate": 13.3,
+     "quinella_rate": 20.0,
+     "show_rate": 40.0
+    },
+    "same_track": {
+     "starts": 15,
+     "win1": 2,
+     "win2": 1,
+     "win3": 3,
+     "win_rate": 13.3,
+     "quinella_rate": 20.0,
+     "show_rate": 40.0
+    },
+    "venue": {
+     "starts": 0,
+     "win1": 0,
+     "win2": 0,
+     "win3": 0,
+     "win_rate": null,
+     "quinella_rate": null,
+     "show_rate": null
+    },
+    "exact_course": {
+     "starts": 0,
+     "win1": 0,
+     "win2": 0,
+     "win3": 0,
+     "win_rate": null,
+     "quinella_rate": null,
+     "show_rate": null
+    },
+    "dist_band": {
+     "starts": 7,
+     "win1": 1,
+     "win2": 1,
+     "win3": 1,
+     "win_rate": 14.3,
+     "quinella_rate": 28.6,
+     "show_rate": 42.9
+    }
+   },
+   "recent": [
+    {
+     "date": "2026/05/17",
+     "race": "ヴィクトリアマイル(GI)",
+     "venue": "東京",
+     "track": "芝",
+     "dist": 1600,
+     "finish": 14
+    },
+    {
+     "date": "2026/04/19",
+     "race": "福島牝馬S(GIII)",
+     "venue": "福島",
+     "track": "芝",
+     "dist": 1800,
+     "finish": 4
+    },
+    {
+     "date": "2026/03/07",
+     "race": "中山牝馬S(GIII)",
+     "venue": "中山",
+     "track": "芝",
+     "dist": 1800,
+     "finish": 8
+    },
+    {
+     "date": "2025/11/16",
+     "race": "エリザベス女王杯(GI)",
+     "venue": "京都",
+     "track": "芝",
+     "dist": 2200,
+     "finish": 14
     },
     {
      "date": "2025/10/19",
-     "race": "甲斐路S(3勝クラス)",
-     "venue": "東京",
-     "track": "芝",
-     "dist": 1800,
-     "finish": 10
-    },
-    {
-     "date": "2025/09/07",
-     "race": "紫苑S(GII)",
-     "venue": "中山",
+     "race": "秋華賞(GI)",
+     "venue": "京都",
      "track": "芝",
      "dist": 2000,
-     "finish": 7
-    },
-    {
-     "date": "2025/08/02",
-     "race": "STV賞(3勝クラス)",
-     "venue": "札幌",
-     "track": "芝",
-     "dist": 2000,
-     "finish": 13
+     "finish": 11
     }
    ],
    "ratings": {
@@ -1773,185 +2001,7 @@
      "low_data": false
     },
     "distance": {
-     "grade": "S",
-     "low_data": false
-    },
-    "stage": {
      "grade": "A",
-     "low_data": true
-    },
-    "going": {
-     "grade": "S",
-     "low_data": false
-    }
-   }
-  },
-  {
-   "waku": 5,
-   "umaban": 10,
-   "horse_id": "2020110060",
-   "name": "ホールネス",
-   "sex_age": "牝6",
-   "weight_carry": "55.0",
-   "jockey_id": "01122",
-   "jockey": "三浦",
-   "trainer_id": "01055",
-   "trainer": "藤原",
-   "sire_id": "000a012919",
-   "sire": "Lope de Vega",
-   "sire_stats": null,
-   "jockey_stats": {
-    "total": {
-     "starts": 12901,
-     "win1": 1156,
-     "win2": 1279,
-     "win3": 1144,
-     "win_rate": "9.0%",
-     "quinella_rate": "18.9%",
-     "show_rate": "27.7%",
-     "turf_starts": 6491,
-     "turf_wins": 504,
-     "dirt_starts": 6410,
-     "dirt_wins": 652
-    },
-    "year": {
-     "starts": 261,
-     "win1": 24,
-     "win2": 21,
-     "win3": 26,
-     "win_rate": "9.2%",
-     "quinella_rate": "17.2%",
-     "show_rate": "27.2%",
-     "turf_starts": 126,
-     "turf_wins": 8,
-     "dirt_starts": 135,
-     "dirt_wins": 16
-    }
-   },
-   "trainer_stats": {
-    "total": {
-     "starts": 6517,
-     "win1": 960,
-     "win2": 739,
-     "win3": 630,
-     "win_rate": "14.7%",
-     "quinella_rate": "26.1%",
-     "show_rate": "35.7%",
-     "turf_starts": 4164,
-     "turf_wins": 592,
-     "dirt_starts": 2289,
-     "dirt_wins": 357
-    },
-    "year": {
-     "starts": 165,
-     "win1": 24,
-     "win2": 15,
-     "win3": 18,
-     "win_rate": "14.5%",
-     "quinella_rate": "23.6%",
-     "show_rate": "34.5%",
-     "turf_starts": 108,
-     "turf_wins": 14,
-     "dirt_starts": 56,
-     "dirt_wins": 10
-    }
-   },
-   "record": {
-    "career": {
-     "starts": 10,
-     "win1": 4,
-     "win2": 1,
-     "win3": 2,
-     "win_rate": 40.0,
-     "quinella_rate": 50.0,
-     "show_rate": 70.0
-    },
-    "same_track": {
-     "starts": 10,
-     "win1": 4,
-     "win2": 1,
-     "win3": 2,
-     "win_rate": 40.0,
-     "quinella_rate": 50.0,
-     "show_rate": 70.0
-    },
-    "venue": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
-     "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
-    },
-    "exact_course": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
-     "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
-    },
-    "dist_band": {
-     "starts": 3,
-     "win1": 1,
-     "win2": 0,
-     "win3": 1,
-     "win_rate": 33.3,
-     "quinella_rate": 33.3,
-     "show_rate": 66.7
-    }
-   },
-   "recent": [
-    {
-     "date": "2026/05/16",
-     "race": "新潟大賞典(GIII)",
-     "venue": "新潟",
-     "track": "芝",
-     "dist": 2000,
-     "finish": 8
-    },
-    {
-     "date": "2026/03/28",
-     "race": "日経賞(GII)",
-     "venue": "中山",
-     "track": "芝",
-     "dist": 2500,
-     "finish": 9
-    },
-    {
-     "date": "2025/01/19",
-     "race": "日経新春杯(GII)",
-     "venue": "中京",
-     "track": "芝",
-     "dist": 2200,
-     "finish": 14
-    },
-    {
-     "date": "2024/11/10",
-     "race": "エリザベス女王杯(GI)",
-     "venue": "京都",
-     "track": "芝",
-     "dist": 2200,
-     "finish": 3
-    },
-    {
-     "date": "2024/10/20",
-     "race": "新潟牝馬S(L)",
-     "venue": "新潟",
-     "track": "芝",
-     "dist": 2200,
-     "finish": 1
-    }
-   ],
-   "ratings": {
-    "ability": {
-     "grade": "B",
-     "low_data": false
-    },
-    "distance": {
-     "grade": "S",
      "low_data": false
     },
     "stage": {
@@ -1959,7 +2009,7 @@
      "low_data": true
     },
     "going": {
-     "grade": "S",
+     "grade": "A",
      "low_data": false
     }
    }
@@ -1967,185 +2017,185 @@
   {
    "waku": 6,
    "umaban": 11,
-   "horse_id": "2022104885",
-   "name": "テレサ",
-   "sex_age": "牝4",
-   "weight_carry": "55.0",
-   "jockey_id": "05386",
-   "jockey": "戸崎圭",
-   "trainer_id": "01157",
-   "trainer": "杉山晴",
-   "sire_id": "2016104422",
-   "sire": "アドマイヤマーズ",
+   "horse_id": "2022104813",
+   "name": "ジュタ",
+   "sex_age": "牡4",
+   "weight_carry": "56.0",
+   "jockey_id": "01163",
+   "jockey": "坂井",
+   "trainer_id": "01075",
+   "trainer": "矢作",
+   "sire_id": "2012104511",
+   "sire": "ドゥラメンテ",
    "sire_stats": {
     "total": {
-     "starts": 661,
-     "wins": 74,
-     "win_rate": 11.2,
-     "turf_starts": 435,
-     "turf_wins": 51,
-     "turf_win_rate": 11.7,
-     "dirt_starts": 224,
-     "dirt_wins": 23,
-     "winner_rate": "36.4%",
-     "avg_dist_turf": "1623.5"
+     "starts": 5778,
+     "wins": 576,
+     "win_rate": 10.0,
+     "turf_starts": 3645,
+     "turf_wins": 368,
+     "turf_win_rate": 10.1,
+     "dirt_starts": 2063,
+     "dirt_wins": 198,
+     "winner_rate": "42.3%",
+     "avg_dist_turf": "1890.8"
     },
     "year": {
-     "starts": 181,
-     "wins": 13,
-     "win_rate": 7.2,
-     "turf_starts": 100,
-     "turf_wins": 6,
-     "turf_win_rate": 6.0,
-     "dirt_starts": 79,
-     "dirt_wins": 7,
-     "winner_rate": "17.6%",
-     "avg_dist_turf": "1700.0"
+     "starts": 246,
+     "wins": 20,
+     "win_rate": 8.1,
+     "turf_starts": 156,
+     "turf_wins": 12,
+     "turf_win_rate": 7.7,
+     "dirt_starts": 81,
+     "dirt_wins": 6,
+     "winner_rate": "20.9%",
+     "avg_dist_turf": "2150.0"
     }
    },
    "jockey_stats": {
     "total": {
-     "starts": 11848,
-     "win1": 1737,
-     "win2": 1486,
-     "win3": 1233,
-     "win_rate": "14.7%",
-     "quinella_rate": "27.2%",
-     "show_rate": "37.6%",
-     "turf_starts": 6267,
-     "turf_wins": 896,
-     "dirt_starts": 5581,
-     "dirt_wins": 841
+     "starts": 6055,
+     "win1": 667,
+     "win2": 589,
+     "win3": 549,
+     "win_rate": "11.0%",
+     "quinella_rate": "20.7%",
+     "show_rate": "29.8%",
+     "turf_starts": 3014,
+     "turf_wins": 323,
+     "dirt_starts": 3041,
+     "dirt_wins": 344
     },
     "year": {
-     "starts": 294,
-     "win1": 35,
-     "win2": 48,
-     "win3": 43,
-     "win_rate": "11.9%",
-     "quinella_rate": "28.2%",
-     "show_rate": "42.9%",
-     "turf_starts": 153,
-     "turf_wins": 14,
-     "dirt_starts": 141,
-     "dirt_wins": 21
+     "starts": 277,
+     "win1": 41,
+     "win2": 40,
+     "win3": 35,
+     "win_rate": "14.8%",
+     "quinella_rate": "29.2%",
+     "show_rate": "41.9%",
+     "turf_starts": 139,
+     "turf_wins": 21,
+     "dirt_starts": 138,
+     "dirt_wins": 20
     }
    },
    "trainer_stats": {
     "total": {
-     "starts": 3322,
-     "win1": 394,
-     "win2": 350,
-     "win3": 280,
-     "win_rate": "11.9%",
-     "quinella_rate": "22.4%",
-     "show_rate": "30.8%",
-     "turf_starts": 1731,
-     "turf_wins": 220,
-     "dirt_starts": 1538,
-     "dirt_wins": 165
+     "starts": 9816,
+     "win1": 966,
+     "win2": 875,
+     "win3": 792,
+     "win_rate": "9.8%",
+     "quinella_rate": "18.8%",
+     "show_rate": "26.8%",
+     "turf_starts": 5548,
+     "turf_wins": 548,
+     "dirt_starts": 4156,
+     "dirt_wins": 403
     },
     "year": {
-     "starts": 183,
-     "win1": 29,
-     "win2": 34,
-     "win3": 18,
-     "win_rate": "15.8%",
-     "quinella_rate": "34.4%",
-     "show_rate": "44.3%",
-     "turf_starts": 126,
-     "turf_wins": 16,
-     "dirt_starts": 57,
-     "dirt_wins": 13
+     "starts": 252,
+     "win1": 25,
+     "win2": 28,
+     "win3": 17,
+     "win_rate": "9.9%",
+     "quinella_rate": "21.0%",
+     "show_rate": "27.8%",
+     "turf_starts": 145,
+     "turf_wins": 14,
+     "dirt_starts": 104,
+     "dirt_wins": 9
     }
    },
    "record": {
     "career": {
-     "starts": 9,
+     "starts": 8,
      "win1": 3,
-     "win2": 1,
-     "win3": 0,
-     "win_rate": 33.3,
-     "quinella_rate": 44.4,
-     "show_rate": 44.4
+     "win2": 0,
+     "win3": 1,
+     "win_rate": 37.5,
+     "quinella_rate": 37.5,
+     "show_rate": 50.0
     },
     "same_track": {
-     "starts": 9,
+     "starts": 8,
      "win1": 3,
-     "win2": 1,
-     "win3": 0,
-     "win_rate": 33.3,
-     "quinella_rate": 44.4,
-     "show_rate": 44.4
+     "win2": 0,
+     "win3": 1,
+     "win_rate": 37.5,
+     "quinella_rate": 37.5,
+     "show_rate": 50.0
     },
     "venue": {
-     "starts": 1,
+     "starts": 0,
      "win1": 0,
      "win2": 0,
      "win3": 0,
-     "win_rate": 0.0,
-     "quinella_rate": 0.0,
-     "show_rate": 0.0
+     "win_rate": null,
+     "quinella_rate": null,
+     "show_rate": null
     },
     "exact_course": {
-     "starts": 1,
+     "starts": 0,
      "win1": 0,
      "win2": 0,
      "win3": 0,
-     "win_rate": 0.0,
-     "quinella_rate": 0.0,
-     "show_rate": 0.0
+     "win_rate": null,
+     "quinella_rate": null,
+     "show_rate": null
     },
     "dist_band": {
      "starts": 8,
      "win1": 3,
-     "win2": 1,
-     "win3": 0,
+     "win2": 0,
+     "win3": 1,
      "win_rate": 37.5,
-     "quinella_rate": 50.0,
+     "quinella_rate": 37.5,
      "show_rate": 50.0
     }
    },
    "recent": [
     {
-     "date": "2026/04/19",
-     "race": "福島牝馬S(GIII)",
-     "venue": "福島",
+     "date": "2026/05/09",
+     "race": "エプソムC(GIII)",
+     "venue": "東京",
      "track": "芝",
      "dist": 1800,
-     "finish": 5
+     "finish": 8
     },
     {
-     "date": "2026/01/24",
-     "race": "小倉牝馬S(GIII)",
-     "venue": "小倉",
+     "date": "2026/04/05",
+     "race": "美浦S(3勝クラス)",
+     "venue": "中山",
      "track": "芝",
      "dist": 2000,
-     "finish": 4
-    },
-    {
-     "date": "2025/10/19",
-     "race": "秋華賞(GI)",
-     "venue": "京都",
-     "track": "芝",
-     "dist": 2000,
-     "finish": 14
-    },
-    {
-     "date": "2025/09/14",
-     "race": "関西TVローズS(GII)",
-     "venue": "阪神",
-     "track": "芝",
-     "dist": 1800,
-     "finish": 2
-    },
-    {
-     "date": "2025/06/28",
-     "race": "柳川特別(2勝クラス)",
-     "venue": "小倉",
-     "track": "芝",
-     "dist": 1800,
      "finish": 1
+    },
+    {
+     "date": "2026/03/22",
+     "race": "スピカS(3勝クラス)",
+     "venue": "中山",
+     "track": "芝",
+     "dist": 1800,
+     "finish": 3
+    },
+    {
+     "date": "2025/04/20",
+     "race": "皐月賞(GI)",
+     "venue": "中山",
+     "track": "芝",
+     "dist": 2000,
+     "finish": 12
+    },
+    {
+     "date": "2025/03/09",
+     "race": "報知弥生ディープ記念(GII)",
+     "venue": "中山",
+     "track": "芝",
+     "dist": 2000,
+     "finish": 10
     }
    ],
    "ratings": {
@@ -2158,7 +2208,7 @@
      "low_data": false
     },
     "stage": {
-     "grade": "C",
+     "grade": "B",
      "low_data": true
     },
     "going": {
@@ -2168,187 +2218,187 @@
    }
   },
   {
-   "waku": 6,
+   "waku": 7,
    "umaban": 12,
-   "horse_id": "2021106823",
-   "name": "コガネノソラ",
-   "sex_age": "牝5",
-   "weight_carry": "56.5",
-   "jockey_id": "01161",
-   "jockey": "菊沢",
-   "trainer_id": "01115",
-   "trainer": "菊沢",
-   "sire_id": "2009102739",
-   "sire": "ゴールドシップ",
+   "horse_id": "2022105073",
+   "name": "エコロディノス",
+   "sex_age": "牡4",
+   "weight_carry": "57.0",
+   "jockey_id": "01032",
+   "jockey": "池添",
+   "trainer_id": "01058",
+   "trainer": "大久保",
+   "sire_id": "2012102013",
+   "sire": "キタサンブラック",
    "sire_stats": {
     "total": {
-     "starts": 4754,
-     "wins": 293,
-     "win_rate": 6.2,
-     "turf_starts": 3829,
-     "turf_wins": 240,
-     "turf_win_rate": 6.3,
-     "dirt_starts": 736,
-     "dirt_wins": 38,
-     "winner_rate": "30.9%",
-     "avg_dist_turf": "2045.0"
+     "starts": 2970,
+     "wins": 364,
+     "win_rate": 12.3,
+     "turf_starts": 2121,
+     "turf_wins": 264,
+     "turf_win_rate": 12.4,
+     "dirt_starts": 769,
+     "dirt_wins": 82,
+     "winner_rate": "43.4%",
+     "avg_dist_turf": "1820.1"
     },
     "year": {
-     "starts": 370,
-     "wins": 14,
-     "win_rate": 3.8,
-     "turf_starts": 279,
-     "turf_wins": 11,
-     "turf_win_rate": 3.9,
-     "dirt_starts": 67,
-     "dirt_wins": 2,
-     "winner_rate": "11.2%",
-     "avg_dist_turf": "2181.8"
+     "starts": 433,
+     "wins": 53,
+     "win_rate": 12.2,
+     "turf_starts": 299,
+     "turf_wins": 41,
+     "turf_win_rate": 13.7,
+     "dirt_starts": 115,
+     "dirt_wins": 9,
+     "winner_rate": "25.9%",
+     "avg_dist_turf": "1912.2"
     }
    },
    "jockey_stats": {
     "total": {
-     "starts": 5372,
-     "win1": 203,
-     "win2": 225,
-     "win3": 324,
-     "win_rate": "3.8%",
-     "quinella_rate": "8.0%",
-     "show_rate": "14.0%",
-     "turf_starts": 2344,
-     "turf_wins": 85,
-     "dirt_starts": 3028,
-     "dirt_wins": 118
+     "starts": 15637,
+     "win1": 1453,
+     "win2": 1389,
+     "win3": 1316,
+     "win_rate": "9.3%",
+     "quinella_rate": "18.2%",
+     "show_rate": "26.6%",
+     "turf_starts": 8525,
+     "turf_wins": 819,
+     "dirt_starts": 7112,
+     "dirt_wins": 634
     },
     "year": {
-     "starts": 368,
-     "win1": 23,
-     "win2": 18,
-     "win3": 17,
-     "win_rate": "6.2%",
-     "quinella_rate": "11.1%",
-     "show_rate": "15.8%",
-     "turf_starts": 174,
-     "turf_wins": 13,
-     "dirt_starts": 194,
-     "dirt_wins": 10
+     "starts": 224,
+     "win1": 17,
+     "win2": 16,
+     "win3": 16,
+     "win_rate": "7.6%",
+     "quinella_rate": "14.7%",
+     "show_rate": "21.9%",
+     "turf_starts": 126,
+     "turf_wins": 9,
+     "dirt_starts": 98,
+     "dirt_wins": 8
     }
    },
    "trainer_stats": {
     "total": {
-     "starts": 3792,
-     "win1": 307,
-     "win2": 288,
-     "win3": 290,
-     "win_rate": "8.1%",
-     "quinella_rate": "15.7%",
-     "show_rate": "23.3%",
-     "turf_starts": 2046,
-     "turf_wins": 163,
-     "dirt_starts": 1679,
-     "dirt_wins": 140
+     "starts": 6090,
+     "win1": 681,
+     "win2": 635,
+     "win3": 580,
+     "win_rate": "11.2%",
+     "quinella_rate": "21.6%",
+     "show_rate": "31.1%",
+     "turf_starts": 2819,
+     "turf_wins": 280,
+     "dirt_starts": 3203,
+     "dirt_wins": 387
     },
     "year": {
-     "starts": 118,
-     "win1": 9,
-     "win2": 6,
-     "win3": 14,
-     "win_rate": "7.6%",
-     "quinella_rate": "12.7%",
-     "show_rate": "24.6%",
-     "turf_starts": 52,
-     "turf_wins": 3,
-     "dirt_starts": 63,
-     "dirt_wins": 6
+     "starts": 127,
+     "win1": 19,
+     "win2": 14,
+     "win3": 12,
+     "win_rate": "15.0%",
+     "quinella_rate": "26.0%",
+     "show_rate": "35.4%",
+     "turf_starts": 57,
+     "turf_wins": 5,
+     "dirt_starts": 69,
+     "dirt_wins": 14
     }
    },
    "record": {
     "career": {
-     "starts": 13,
-     "win1": 5,
-     "win2": 1,
-     "win3": 2,
-     "win_rate": 38.5,
-     "quinella_rate": 46.2,
-     "show_rate": 61.5
+     "starts": 9,
+     "win1": 4,
+     "win2": 0,
+     "win3": 3,
+     "win_rate": 44.4,
+     "quinella_rate": 44.4,
+     "show_rate": 77.8
     },
     "same_track": {
-     "starts": 13,
-     "win1": 5,
-     "win2": 1,
-     "win3": 2,
-     "win_rate": 38.5,
-     "quinella_rate": 46.2,
-     "show_rate": 61.5
+     "starts": 9,
+     "win1": 4,
+     "win2": 0,
+     "win3": 3,
+     "win_rate": 44.4,
+     "quinella_rate": 44.4,
+     "show_rate": 77.8
     },
     "venue": {
-     "starts": 3,
-     "win1": 2,
+     "starts": 0,
+     "win1": 0,
      "win2": 0,
      "win3": 0,
-     "win_rate": 66.7,
-     "quinella_rate": 66.7,
-     "show_rate": 66.7
+     "win_rate": null,
+     "quinella_rate": null,
+     "show_rate": null
     },
     "exact_course": {
-     "starts": 2,
-     "win1": 2,
+     "starts": 0,
+     "win1": 0,
      "win2": 0,
      "win3": 0,
-     "win_rate": 100.0,
-     "quinella_rate": 100.0,
-     "show_rate": 100.0
+     "win_rate": null,
+     "quinella_rate": null,
+     "show_rate": null
     },
     "dist_band": {
-     "starts": 12,
-     "win1": 5,
-     "win2": 1,
-     "win3": 2,
-     "win_rate": 41.7,
-     "quinella_rate": 50.0,
-     "show_rate": 66.7
+     "starts": 9,
+     "win1": 4,
+     "win2": 0,
+     "win3": 3,
+     "win_rate": 44.4,
+     "quinella_rate": 44.4,
+     "show_rate": 77.8
     }
    },
    "recent": [
     {
-     "date": "2026/04/19",
-     "race": "福島牝馬S(GIII)",
-     "venue": "福島",
-     "track": "芝",
-     "dist": 1800,
-     "finish": 1
-    },
-    {
-     "date": "2025/11/22",
-     "race": "福島記念(GIII)",
-     "venue": "福島",
+     "date": "2026/04/05",
+     "race": "大阪杯(GI)",
+     "venue": "阪神",
      "track": "芝",
      "dist": 2000,
-     "finish": 11
+     "finish": 15
     },
     {
-     "date": "2025/01/25",
-     "race": "小倉牝馬S(GIII)",
-     "venue": "小倉",
+     "date": "2026/02/15",
+     "race": "京都記念(GII)",
+     "venue": "京都",
      "track": "芝",
-     "dist": 2000,
+     "dist": 2200,
      "finish": 3
     },
     {
-     "date": "2024/11/30",
-     "race": "チャレンジC(GIII)",
-     "venue": "京都",
+     "date": "2025/12/14",
+     "race": "オリオンS(3勝クラス)",
+     "venue": "阪神",
      "track": "芝",
-     "dist": 2000,
-     "finish": 8
+     "dist": 2200,
+     "finish": 1
     },
     {
-     "date": "2024/10/13",
-     "race": "秋華賞(GI)",
+     "date": "2025/11/01",
+     "race": "北野特別(2勝クラス)",
      "venue": "京都",
      "track": "芝",
      "dist": 2000,
-     "finish": 9
+     "finish": 1
+    },
+    {
+     "date": "2025/09/14",
+     "race": "能勢特別(2勝クラス)",
+     "venue": "阪神",
+     "track": "芝",
+     "dist": 2000,
+     "finish": 3
     }
    ],
    "ratings": {
@@ -2361,7 +2411,7 @@
      "low_data": false
     },
     "stage": {
-     "grade": "A",
+     "grade": "B",
      "low_data": true
     },
     "going": {
@@ -2373,185 +2423,185 @@
   {
    "waku": 7,
    "umaban": 13,
-   "horse_id": "2022105192",
-   "name": "ビップデイジー",
-   "sex_age": "牝4",
-   "weight_carry": "54.0",
-   "jockey_id": "01171",
-   "jockey": "西村淳",
-   "trainer_id": "01149",
-   "trainer": "松下",
-   "sire_id": "2013106101",
-   "sire": "サトノダイヤモンド",
+   "horse_id": "2017104756",
+   "name": "アラタ",
+   "sex_age": "牡9",
+   "weight_carry": "58.0",
+   "jockey_id": "01096",
+   "jockey": "大野",
+   "trainer_id": "01165",
+   "trainer": "和田勇",
+   "sire_id": "2001103460",
+   "sire": "キングカメハメハ",
    "sire_stats": {
     "total": {
-     "starts": 2221,
-     "wins": 169,
-     "win_rate": 7.6,
-     "turf_starts": 1431,
-     "turf_wins": 116,
-     "turf_win_rate": 8.1,
-     "dirt_starts": 741,
-     "dirt_wins": 43,
-     "winner_rate": "29.9%",
-     "avg_dist_turf": "1816.4"
+     "starts": 21999,
+     "wins": 2238,
+     "win_rate": 10.2,
+     "turf_starts": 11662,
+     "turf_wins": 1166,
+     "turf_win_rate": 10.0,
+     "dirt_starts": 9564,
+     "dirt_wins": 986,
+     "winner_rate": "48.9%",
+     "avg_dist_turf": "1806.5"
     },
     "year": {
-     "starts": 346,
-     "wins": 20,
-     "win_rate": 5.8,
-     "turf_starts": 194,
-     "turf_wins": 10,
-     "turf_win_rate": 5.2,
-     "dirt_starts": 133,
-     "dirt_wins": 6,
-     "winner_rate": "14.2%",
-     "avg_dist_turf": "1640.0"
+     "starts": 35,
+     "wins": 0,
+     "win_rate": 0.0,
+     "turf_starts": 18,
+     "turf_wins": 0,
+     "turf_win_rate": 0.0,
+     "dirt_starts": 14,
+     "dirt_wins": 0,
+     "winner_rate": "0.0%",
+     "avg_dist_turf": "0.0"
     }
    },
    "jockey_stats": {
     "total": {
-     "starts": 5525,
-     "win1": 496,
-     "win2": 512,
-     "win3": 503,
-     "win_rate": "9.0%",
-     "quinella_rate": "18.2%",
-     "show_rate": "27.3%",
-     "turf_starts": 2740,
-     "turf_wins": 271,
-     "dirt_starts": 2785,
-     "dirt_wins": 225
+     "starts": 13973,
+     "win1": 759,
+     "win2": 900,
+     "win3": 1029,
+     "win_rate": "5.4%",
+     "quinella_rate": "11.9%",
+     "show_rate": "19.2%",
+     "turf_starts": 6903,
+     "turf_wins": 353,
+     "dirt_starts": 7069,
+     "dirt_wins": 406
     },
     "year": {
-     "starts": 345,
-     "win1": 49,
-     "win2": 37,
-     "win3": 40,
-     "win_rate": "14.2%",
-     "quinella_rate": "24.9%",
-     "show_rate": "36.5%",
-     "turf_starts": 160,
-     "turf_wins": 19,
-     "dirt_starts": 185,
-     "dirt_wins": 30
+     "starts": 254,
+     "win1": 7,
+     "win2": 23,
+     "win3": 21,
+     "win_rate": "2.8%",
+     "quinella_rate": "11.8%",
+     "show_rate": "20.1%",
+     "turf_starts": 108,
+     "turf_wins": 1,
+     "dirt_starts": 146,
+     "dirt_wins": 6
     }
    },
    "trainer_stats": {
     "total": {
-     "starts": 3214,
-     "win1": 240,
-     "win2": 211,
-     "win3": 234,
-     "win_rate": "7.5%",
-     "quinella_rate": "14.0%",
-     "show_rate": "21.3%",
-     "turf_starts": 1378,
-     "turf_wins": 103,
-     "dirt_starts": 1754,
-     "dirt_wins": 125
+     "starts": 1966,
+     "win1": 118,
+     "win2": 139,
+     "win3": 122,
+     "win_rate": "6.0%",
+     "quinella_rate": "13.1%",
+     "show_rate": "19.3%",
+     "turf_starts": 893,
+     "turf_wins": 53,
+     "dirt_starts": 1026,
+     "dirt_wins": 62
     },
     "year": {
-     "starts": 125,
-     "win1": 13,
-     "win2": 10,
-     "win3": 11,
-     "win_rate": "10.4%",
-     "quinella_rate": "18.4%",
-     "show_rate": "27.2%",
-     "turf_starts": 46,
-     "turf_wins": 6,
-     "dirt_starts": 77,
-     "dirt_wins": 7
+     "starts": 115,
+     "win1": 4,
+     "win2": 5,
+     "win3": 4,
+     "win_rate": "3.5%",
+     "quinella_rate": "7.8%",
+     "show_rate": "11.3%",
+     "turf_starts": 48,
+     "turf_wins": 0,
+     "dirt_starts": 63,
+     "dirt_wins": 4
     }
    },
    "record": {
     "career": {
-     "starts": 11,
-     "win1": 2,
+     "starts": 33,
+     "win1": 7,
      "win2": 1,
-     "win3": 1,
-     "win_rate": 18.2,
-     "quinella_rate": 27.3,
+     "win3": 4,
+     "win_rate": 21.2,
+     "quinella_rate": 24.2,
      "show_rate": 36.4
     },
     "same_track": {
-     "starts": 11,
-     "win1": 2,
+     "starts": 32,
+     "win1": 7,
      "win2": 1,
-     "win3": 1,
-     "win_rate": 18.2,
-     "quinella_rate": 27.3,
-     "show_rate": 36.4
+     "win3": 4,
+     "win_rate": 21.9,
+     "quinella_rate": 25.0,
+     "show_rate": 37.5
     },
     "venue": {
-     "starts": 1,
-     "win1": 0,
+     "starts": 5,
+     "win1": 3,
      "win2": 0,
      "win3": 0,
-     "win_rate": 0.0,
-     "quinella_rate": 0.0,
-     "show_rate": 0.0
+     "win_rate": 60.0,
+     "quinella_rate": 60.0,
+     "show_rate": 60.0
     },
     "exact_course": {
-     "starts": 0,
-     "win1": 0,
+     "starts": 3,
+     "win1": 1,
      "win2": 0,
      "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
+     "win_rate": 33.3,
+     "quinella_rate": 33.3,
+     "show_rate": 33.3
     },
     "dist_band": {
-     "starts": 10,
-     "win1": 2,
+     "starts": 27,
+     "win1": 6,
      "win2": 1,
-     "win3": 1,
-     "win_rate": 20.0,
-     "quinella_rate": 30.0,
-     "show_rate": 40.0
+     "win3": 4,
+     "win_rate": 22.2,
+     "quinella_rate": 25.9,
+     "show_rate": 40.7
     }
    },
    "recent": [
     {
-     "date": "2026/04/11",
-     "race": "サンスポ杯阪神牝馬S(GII)",
-     "venue": "阪神",
-     "track": "芝",
-     "dist": 1600,
-     "finish": 5
-    },
-    {
-     "date": "2026/01/24",
-     "race": "睦月S(OP)",
-     "venue": "京都",
-     "track": "芝",
-     "dist": 1600,
-     "finish": 10
-    },
-    {
-     "date": "2025/12/20",
-     "race": "ターコイズS(GIII)",
-     "venue": "中山",
-     "track": "芝",
-     "dist": 1600,
-     "finish": 10
-    },
-    {
-     "date": "2025/10/19",
-     "race": "秋華賞(GI)",
-     "venue": "京都",
+     "date": "2026/03/15",
+     "race": "東海テレビ杯金鯱賞(GII)",
+     "venue": "中京",
      "track": "芝",
      "dist": 2000,
-     "finish": 6
+     "finish": 10
     },
     {
-     "date": "2025/09/14",
-     "race": "関西TVローズS(GII)",
-     "venue": "阪神",
+     "date": "2025/12/28",
+     "race": "有馬記念(GI)",
+     "venue": "中山",
      "track": "芝",
-     "dist": 1800,
+     "dist": 2500,
+     "finish": 15
+    },
+    {
+     "date": "2025/11/22",
+     "race": "福島記念(GIII)",
+     "venue": "福島",
+     "track": "芝",
+     "dist": 2000,
      "finish": 4
+    },
+    {
+     "date": "2025/08/17",
+     "race": "札幌記念(GII)",
+     "venue": "札幌",
+     "track": "芝",
+     "dist": 2000,
+     "finish": 3
+    },
+    {
+     "date": "2025/05/04",
+     "race": "天皇賞(春)(GI)",
+     "venue": "京都",
+     "track": "芝",
+     "dist": 3200,
+     "finish": 15
     }
    ],
    "ratings": {
@@ -2564,8 +2614,8 @@
      "low_data": false
     },
     "stage": {
-     "grade": "C",
-     "low_data": true
+     "grade": "B",
+     "low_data": false
     },
     "going": {
      "grade": "A",
@@ -2574,127 +2624,127 @@
    }
   },
   {
-   "waku": 7,
+   "waku": 8,
    "umaban": 14,
-   "horse_id": "2022103546",
-   "name": "パラディレーヌ",
-   "sex_age": "牝4",
+   "horse_id": "2022105175",
+   "name": "フィーリウス",
+   "sex_age": "牡4",
    "weight_carry": "56.0",
-   "jockey_id": "01184",
-   "jockey": "原",
-   "trainer_id": "01120",
-   "trainer": "千田",
-   "sire_id": "2010105827",
-   "sire": "キズナ",
+   "jockey_id": "01091",
+   "jockey": "丹内",
+   "trainer_id": "01038",
+   "trainer": "手塚久",
+   "sire_id": "2012102013",
+   "sire": "キタサンブラック",
    "sire_stats": {
     "total": {
-     "starts": 8657,
-     "wins": 953,
-     "win_rate": 11.0,
-     "turf_starts": 5372,
-     "turf_wins": 583,
-     "turf_win_rate": 10.9,
-     "dirt_starts": 3031,
-     "dirt_wins": 326,
-     "winner_rate": "50.2%",
-     "avg_dist_turf": "1818.7"
+     "starts": 2970,
+     "wins": 364,
+     "win_rate": 12.3,
+     "turf_starts": 2121,
+     "turf_wins": 264,
+     "turf_win_rate": 12.4,
+     "dirt_starts": 769,
+     "dirt_wins": 82,
+     "winner_rate": "43.4%",
+     "avg_dist_turf": "1820.1"
     },
     "year": {
-     "starts": 592,
-     "wins": 72,
+     "starts": 433,
+     "wins": 53,
      "win_rate": 12.2,
-     "turf_starts": 359,
-     "turf_wins": 43,
-     "turf_win_rate": 12.0,
-     "dirt_starts": 205,
-     "dirt_wins": 25,
-     "winner_rate": "26.1%",
-     "avg_dist_turf": "1990.7"
+     "turf_starts": 299,
+     "turf_wins": 41,
+     "turf_win_rate": 13.7,
+     "dirt_starts": 115,
+     "dirt_wins": 9,
+     "winner_rate": "25.9%",
+     "avg_dist_turf": "1912.2"
     }
    },
    "jockey_stats": {
     "total": {
-     "starts": 3666,
-     "win1": 121,
-     "win2": 162,
-     "win3": 186,
-     "win_rate": "3.3%",
-     "quinella_rate": "7.7%",
-     "show_rate": "12.8%",
-     "turf_starts": 1560,
-     "turf_wins": 37,
-     "dirt_starts": 2106,
-     "dirt_wins": 84
+     "starts": 13076,
+     "win1": 679,
+     "win2": 894,
+     "win3": 956,
+     "win_rate": "5.2%",
+     "quinella_rate": "12.0%",
+     "show_rate": "19.3%",
+     "turf_starts": 7189,
+     "turf_wins": 400,
+     "dirt_starts": 5887,
+     "dirt_wins": 279
     },
     "year": {
-     "starts": 329,
-     "win1": 16,
-     "win2": 22,
-     "win3": 13,
-     "win_rate": "4.9%",
-     "quinella_rate": "11.6%",
-     "show_rate": "15.5%",
-     "turf_starts": 115,
-     "turf_wins": 4,
-     "dirt_starts": 214,
-     "dirt_wins": 12
+     "starts": 459,
+     "win1": 41,
+     "win2": 43,
+     "win3": 38,
+     "win_rate": "8.9%",
+     "quinella_rate": "18.3%",
+     "show_rate": "26.6%",
+     "turf_starts": 237,
+     "turf_wins": 21,
+     "dirt_starts": 222,
+     "dirt_wins": 20
     }
    },
    "trainer_stats": {
     "total": {
-     "starts": 3744,
-     "win1": 237,
-     "win2": 238,
-     "win3": 249,
-     "win_rate": "6.3%",
-     "quinella_rate": "12.7%",
-     "show_rate": "19.3%",
-     "turf_starts": 2023,
-     "turf_wins": 117,
-     "dirt_starts": 1690,
-     "dirt_wins": 116
+     "starts": 7456,
+     "win1": 744,
+     "win2": 683,
+     "win3": 651,
+     "win_rate": "10.0%",
+     "quinella_rate": "19.1%",
+     "show_rate": "27.9%",
+     "turf_starts": 4127,
+     "turf_wins": 417,
+     "dirt_starts": 3259,
+     "dirt_wins": 316
     },
     "year": {
-     "starts": 126,
-     "win1": 9,
-     "win2": 6,
-     "win3": 8,
-     "win_rate": "7.1%",
-     "quinella_rate": "11.9%",
-     "show_rate": "18.3%",
-     "turf_starts": 63,
-     "turf_wins": 6,
-     "dirt_starts": 63,
-     "dirt_wins": 3
+     "starts": 153,
+     "win1": 24,
+     "win2": 14,
+     "win3": 12,
+     "win_rate": "15.7%",
+     "quinella_rate": "24.8%",
+     "show_rate": "32.7%",
+     "turf_starts": 96,
+     "turf_wins": 17,
+     "dirt_starts": 54,
+     "dirt_wins": 7
     }
    },
    "record": {
     "career": {
-     "starts": 11,
-     "win1": 2,
+     "starts": 14,
+     "win1": 4,
      "win2": 2,
      "win3": 3,
-     "win_rate": 18.2,
-     "quinella_rate": 36.4,
-     "show_rate": 63.6
+     "win_rate": 28.6,
+     "quinella_rate": 42.9,
+     "show_rate": 64.3
     },
     "same_track": {
-     "starts": 11,
-     "win1": 2,
-     "win2": 2,
+     "starts": 12,
+     "win1": 3,
+     "win2": 1,
      "win3": 3,
-     "win_rate": 18.2,
-     "quinella_rate": 36.4,
-     "show_rate": 63.6
+     "win_rate": 25.0,
+     "quinella_rate": 33.3,
+     "show_rate": 58.3
     },
     "venue": {
-     "starts": 2,
+     "starts": 0,
      "win1": 0,
      "win2": 0,
      "win3": 0,
-     "win_rate": 0.0,
-     "quinella_rate": 0.0,
-     "show_rate": 0.0
+     "win_rate": null,
+     "quinella_rate": null,
+     "show_rate": null
     },
     "exact_course": {
      "starts": 0,
@@ -2706,55 +2756,55 @@
      "show_rate": null
     },
     "dist_band": {
-     "starts": 9,
+     "starts": 7,
      "win1": 2,
-     "win2": 1,
-     "win3": 3,
-     "win_rate": 22.2,
-     "quinella_rate": 33.3,
-     "show_rate": 66.7
+     "win2": 0,
+     "win3": 2,
+     "win_rate": 28.6,
+     "quinella_rate": 28.6,
+     "show_rate": 57.1
     }
    },
    "recent": [
     {
-     "date": "2026/05/17",
-     "race": "ヴィクトリアマイル(GI)",
-     "venue": "東京",
-     "track": "芝",
-     "dist": 1600,
-     "finish": 12
-    },
-    {
-     "date": "2026/04/19",
-     "race": "福島牝馬S(GIII)",
-     "venue": "福島",
-     "track": "芝",
-     "dist": 1800,
-     "finish": 8
-    },
-    {
-     "date": "2026/03/07",
-     "race": "中山牝馬S(GIII)",
+     "date": "2026/03/22",
+     "race": "スピカS(3勝クラス)",
      "venue": "中山",
      "track": "芝",
      "dist": 1800,
-     "finish": 3
+     "finish": 1
     },
     {
-     "date": "2025/11/16",
-     "race": "エリザベス女王杯(GI)",
-     "venue": "京都",
+     "date": "2026/01/18",
+     "race": "4歳以上2勝クラス",
+     "venue": "中山",
      "track": "芝",
      "dist": 2200,
+     "finish": 1
+    },
+    {
+     "date": "2025/12/28",
+     "race": "グッドラックH(2勝クラス)",
+     "venue": "中山",
+     "track": "芝",
+     "dist": 2500,
+     "finish": 4
+    },
+    {
+     "date": "2025/12/07",
+     "race": "3歳以上2勝クラス",
+     "venue": "中山",
+     "track": "芝",
+     "dist": 2500,
      "finish": 2
     },
     {
-     "date": "2025/10/19",
-     "race": "秋華賞(GI)",
-     "venue": "京都",
+     "date": "2025/09/15",
+     "race": "朝日セントライト記念(GII)",
+     "venue": "中山",
      "track": "芝",
-     "dist": 2000,
-     "finish": 3
+     "dist": 2200,
+     "finish": 8
     }
    ],
    "ratings": {
@@ -2767,7 +2817,7 @@
      "low_data": false
     },
     "stage": {
-     "grade": "C",
+     "grade": "B",
      "low_data": true
     },
     "going": {
@@ -2779,402 +2829,199 @@
   {
    "waku": 8,
    "umaban": 15,
-   "horse_id": "2022105157",
-   "name": "ルージュソリテール",
-   "sex_age": "牝4",
-   "weight_carry": "55.0",
-   "jockey_id": "01200",
-   "jockey": "西塚",
-   "trainer_id": "01055",
-   "trainer": "藤原",
+   "horse_id": "2019104878",
+   "name": "デビットバローズ",
+   "sex_age": "セ7",
+   "weight_carry": "58.0",
+   "jockey_id": "01174",
+   "jockey": "岩田望",
+   "trainer_id": "01168",
+   "trainer": "上村",
    "sire_id": "2008103552",
    "sire": "ロードカナロア",
    "sire_stats": {
     "total": {
-     "starts": 12626,
-     "wins": 1320,
+     "starts": 12649,
+     "wins": 1323,
      "win_rate": 10.5,
-     "turf_starts": 7742,
-     "turf_wins": 865,
+     "turf_starts": 7756,
+     "turf_wins": 866,
      "turf_win_rate": 11.2,
-     "dirt_starts": 4723,
-     "dirt_wins": 435,
+     "dirt_starts": 4731,
+     "dirt_wins": 437,
      "winner_rate": "43.4%",
-     "avg_dist_turf": "1534.3"
+     "avg_dist_turf": "1534.0"
     },
     "year": {
-     "starts": 552,
-     "wins": 49,
-     "win_rate": 8.9,
-     "turf_starts": 280,
-     "turf_wins": 26,
-     "turf_win_rate": 9.3,
-     "dirt_starts": 261,
-     "dirt_wins": 21,
-     "winner_rate": "21.4%",
-     "avg_dist_turf": "1546.2"
+     "starts": 575,
+     "wins": 52,
+     "win_rate": 9.0,
+     "turf_starts": 294,
+     "turf_wins": 27,
+     "turf_win_rate": 9.2,
+     "dirt_starts": 269,
+     "dirt_wins": 23,
+     "winner_rate": "22.1%",
+     "avg_dist_turf": "1533.3"
     }
    },
    "jockey_stats": {
     "total": {
-     "starts": 1745,
-     "win1": 113,
-     "win2": 101,
-     "win3": 94,
-     "win_rate": "6.5%",
-     "quinella_rate": "12.3%",
-     "show_rate": "17.7%",
-     "turf_starts": 854,
-     "turf_wins": 55,
-     "dirt_starts": 891,
-     "dirt_wins": 58
+     "starts": 5724,
+     "win1": 672,
+     "win2": 566,
+     "win3": 585,
+     "win_rate": "11.7%",
+     "quinella_rate": "21.6%",
+     "show_rate": "31.8%",
+     "turf_starts": 2783,
+     "turf_wins": 316,
+     "dirt_starts": 2941,
+     "dirt_wins": 356
     },
     "year": {
-     "starts": 225,
-     "win1": 20,
-     "win2": 10,
-     "win3": 19,
-     "win_rate": "8.9%",
-     "quinella_rate": "13.3%",
-     "show_rate": "21.8%",
-     "turf_starts": 128,
-     "turf_wins": 12,
-     "dirt_starts": 97,
-     "dirt_wins": 8
+     "starts": 411,
+     "win1": 71,
+     "win2": 55,
+     "win3": 44,
+     "win_rate": "17.3%",
+     "quinella_rate": "30.7%",
+     "show_rate": "41.4%",
+     "turf_starts": 192,
+     "turf_wins": 26,
+     "dirt_starts": 219,
+     "dirt_wins": 45
     }
    },
    "trainer_stats": {
     "total": {
-     "starts": 6517,
-     "win1": 960,
-     "win2": 739,
-     "win3": 630,
-     "win_rate": "14.7%",
-     "quinella_rate": "26.1%",
-     "show_rate": "35.7%",
-     "turf_starts": 4164,
-     "turf_wins": 592,
-     "dirt_starts": 2289,
-     "dirt_wins": 357
+     "starts": 1592,
+     "win1": 228,
+     "win2": 170,
+     "win3": 143,
+     "win_rate": "14.3%",
+     "quinella_rate": "25.0%",
+     "show_rate": "34.0%",
+     "turf_starts": 877,
+     "turf_wins": 126,
+     "dirt_starts": 698,
+     "dirt_wins": 100
     },
     "year": {
-     "starts": 165,
-     "win1": 24,
-     "win2": 15,
-     "win3": 18,
-     "win_rate": "14.5%",
-     "quinella_rate": "23.6%",
-     "show_rate": "34.5%",
-     "turf_starts": 108,
-     "turf_wins": 14,
-     "dirt_starts": 56,
-     "dirt_wins": 10
+     "starts": 118,
+     "win1": 16,
+     "win2": 14,
+     "win3": 12,
+     "win_rate": "13.6%",
+     "quinella_rate": "25.4%",
+     "show_rate": "35.6%",
+     "turf_starts": 77,
+     "turf_wins": 10,
+     "dirt_starts": 41,
+     "dirt_wins": 6
     }
    },
    "record": {
     "career": {
-     "starts": 8,
-     "win1": 3,
-     "win2": 1,
-     "win3": 1,
-     "win_rate": 37.5,
-     "quinella_rate": 50.0,
-     "show_rate": 62.5
+     "starts": 20,
+     "win1": 6,
+     "win2": 3,
+     "win3": 0,
+     "win_rate": 30.0,
+     "quinella_rate": 45.0,
+     "show_rate": 45.0
     },
     "same_track": {
-     "starts": 8,
-     "win1": 3,
-     "win2": 1,
-     "win3": 1,
-     "win_rate": 37.5,
-     "quinella_rate": 50.0,
-     "show_rate": 62.5
+     "starts": 20,
+     "win1": 6,
+     "win2": 3,
+     "win3": 0,
+     "win_rate": 30.0,
+     "quinella_rate": 45.0,
+     "show_rate": 45.0
     },
     "venue": {
      "starts": 2,
-     "win1": 1,
+     "win1": 0,
      "win2": 1,
      "win3": 0,
-     "win_rate": 50.0,
-     "quinella_rate": 100.0,
-     "show_rate": 100.0
+     "win_rate": 0.0,
+     "quinella_rate": 50.0,
+     "show_rate": 50.0
     },
     "exact_course": {
-     "starts": 2,
-     "win1": 1,
-     "win2": 1,
+     "starts": 1,
+     "win1": 0,
+     "win2": 0,
      "win3": 0,
-     "win_rate": 50.0,
-     "quinella_rate": 100.0,
-     "show_rate": 100.0
+     "win_rate": 0.0,
+     "quinella_rate": 0.0,
+     "show_rate": 0.0
     },
     "dist_band": {
-     "starts": 8,
-     "win1": 3,
-     "win2": 1,
-     "win3": 1,
-     "win_rate": 37.5,
-     "quinella_rate": 50.0,
-     "show_rate": 62.5
+     "starts": 18,
+     "win1": 6,
+     "win2": 2,
+     "win3": 0,
+     "win_rate": 33.3,
+     "quinella_rate": 44.4,
+     "show_rate": 44.4
     }
    },
    "recent": [
     {
-     "date": "2026/04/11",
-     "race": "サンスポ杯阪神牝馬S(GII)",
+     "date": "2026/04/05",
+     "race": "大阪杯(GI)",
      "venue": "阪神",
-     "track": "芝",
-     "dist": 1600,
-     "finish": 3
-    },
-    {
-     "date": "2026/03/28",
-     "race": "マレーシアC(3勝クラス)",
-     "venue": "中京",
-     "track": "芝",
-     "dist": 1600,
-     "finish": 1
-    },
-    {
-     "date": "2026/02/10",
-     "race": "初音S(3勝クラス)",
-     "venue": "東京",
-     "track": "芝",
-     "dist": 1800,
-     "finish": 2
-    },
-    {
-     "date": "2025/10/19",
-     "race": "秋華賞(GI)",
-     "venue": "京都",
      "track": "芝",
      "dist": 2000,
      "finish": 8
     },
     {
-     "date": "2025/09/14",
-     "race": "関西TVローズS(GII)",
+     "date": "2025/12/06",
+     "race": "鳴尾記念(GIII)",
      "venue": "阪神",
      "track": "芝",
      "dist": 1800,
-     "finish": 10
-    }
-   ],
-   "ratings": {
-    "ability": {
-     "grade": "B",
-     "low_data": false
+     "finish": 1
     },
-    "distance": {
-     "grade": "S",
-     "low_data": false
-    },
-    "stage": {
-     "grade": "A",
-     "low_data": true
-    },
-    "going": {
-     "grade": "S",
-     "low_data": false
-    }
-   }
-  },
-  {
-   "waku": 8,
-   "umaban": 16,
-   "horse_id": "2021104894",
-   "name": "セントメモリーズ",
-   "sex_age": "牝5",
-   "weight_carry": "52.0",
-   "jockey_id": "01162",
-   "jockey": "木幡巧",
-   "trainer_id": "01220",
-   "trainer": "松尾",
-   "sire_id": "2010104155",
-   "sire": "エピファネイア",
-   "sire_stats": {
-    "total": {
-     "starts": 7608,
-     "wins": 660,
-     "win_rate": 8.7,
-     "turf_starts": 5738,
-     "turf_wins": 555,
-     "turf_win_rate": 9.7,
-     "dirt_starts": 1756,
-     "dirt_wins": 94,
-     "winner_rate": "41.6%",
-     "avg_dist_turf": "1813.2"
-    },
-    "year": {
-     "starts": 545,
-     "wins": 51,
-     "win_rate": 9.4,
-     "turf_starts": 420,
-     "turf_wins": 43,
-     "turf_win_rate": 10.2,
-     "dirt_starts": 110,
-     "dirt_wins": 5,
-     "winner_rate": "22.8%",
-     "avg_dist_turf": "1879.1"
-    }
-   },
-   "jockey_stats": {
-    "total": {
-     "starts": 6400,
-     "win1": 276,
-     "win2": 337,
-     "win3": 372,
-     "win_rate": "4.3%",
-     "quinella_rate": "9.6%",
-     "show_rate": "15.4%",
-     "turf_starts": 2738,
-     "turf_wins": 105,
-     "dirt_starts": 3662,
-     "dirt_wins": 171
-    },
-    "year": {
-     "starts": 305,
-     "win1": 12,
-     "win2": 18,
-     "win3": 12,
-     "win_rate": "3.9%",
-     "quinella_rate": "9.8%",
-     "show_rate": "13.8%",
-     "turf_starts": 95,
-     "turf_wins": 1,
-     "dirt_starts": 210,
-     "dirt_wins": 11
-    }
-   },
-   "trainer_stats": {
-    "total": {
-     "starts": 43,
-     "win1": 1,
-     "win2": 3,
-     "win3": 6,
-     "win_rate": "2.3%",
-     "quinella_rate": "9.3%",
-     "show_rate": "23.3%",
-     "turf_starts": 21,
-     "turf_wins": 1,
-     "dirt_starts": 18,
-     "dirt_wins": 0
-    },
-    "year": {
-     "starts": 43,
-     "win1": 1,
-     "win2": 3,
-     "win3": 6,
-     "win_rate": "2.3%",
-     "quinella_rate": "9.3%",
-     "show_rate": "23.3%",
-     "turf_starts": 21,
-     "turf_wins": 1,
-     "dirt_starts": 18,
-     "dirt_wins": 0
-    }
-   },
-   "record": {
-    "career": {
-     "starts": 10,
-     "win1": 4,
-     "win2": 1,
-     "win3": 0,
-     "win_rate": 40.0,
-     "quinella_rate": 50.0,
-     "show_rate": 50.0
-    },
-    "same_track": {
-     "starts": 9,
-     "win1": 4,
-     "win2": 1,
-     "win3": 0,
-     "win_rate": 44.4,
-     "quinella_rate": 55.6,
-     "show_rate": 55.6
-    },
-    "venue": {
-     "starts": 3,
-     "win1": 2,
-     "win2": 0,
-     "win3": 0,
-     "win_rate": 66.7,
-     "quinella_rate": 66.7,
-     "show_rate": 66.7
-    },
-    "exact_course": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
-     "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
-    },
-    "dist_band": {
-     "starts": 0,
-     "win1": 0,
-     "win2": 0,
-     "win3": 0,
-     "win_rate": null,
-     "quinella_rate": null,
-     "show_rate": null
-    }
-   },
-   "recent": [
     {
-     "date": "2026/04/04",
-     "race": "ポラリスS(OP)",
+     "date": "2025/06/22",
+     "race": "しらさぎS(GIII)",
      "venue": "阪神",
-     "track": "ダ",
-     "dist": 1400,
-     "finish": 14
+     "track": "芝",
+     "dist": 1600,
+     "finish": 5
     },
     {
-     "date": "2025/11/16",
-     "race": "オーロC(L)",
+     "date": "2025/05/10",
+     "race": "エプソムC(GIII)",
      "venue": "東京",
      "track": "芝",
-     "dist": 1400,
-     "finish": 17
+     "dist": 1800,
+     "finish": 9
     },
     {
-     "date": "2025/03/23",
-     "race": "愛知杯(GIII)",
-     "venue": "中京",
+     "date": "2025/03/09",
+     "race": "大阪城S(L)",
+     "venue": "阪神",
      "track": "芝",
-     "dist": 1400,
-     "finish": 14
-    },
-    {
-     "date": "2025/02/02",
-     "race": "シルクロードS(GIII)",
-     "venue": "京都",
-     "track": "芝",
-     "dist": 1200,
-     "finish": 15
-    },
-    {
-     "date": "2024/11/09",
-     "race": "奥多摩S(3勝クラス)",
-     "venue": "東京",
-     "track": "芝",
-     "dist": 1400,
+     "dist": 1800,
      "finish": 1
     }
    ],
    "ratings": {
     "ability": {
-     "grade": "C",
+     "grade": "B",
      "low_data": false
     },
     "distance": {
-     "grade": "B",
-     "low_data": true
+     "grade": "A",
+     "low_data": false
     },
     "stage": {
-     "grade": "S",
-     "low_data": false
+     "grade": "C",
+     "low_data": true
     },
     "going": {
      "grade": "S",
@@ -3183,6 +3030,6 @@
    }
   }
  ],
- "generated_at": "2026-06-21 03:41:19",
+ "generated_at": "2026-06-27 17:44:11",
  "note": "種牡馬の競馬場別・コース別産駒集計はnetkeiba無料領域では非公開のため、産駒の芝/ダ別成績と各出走馬自身のコース実績を表示しています。"
 }
